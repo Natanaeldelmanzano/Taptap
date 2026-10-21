@@ -1,0 +1,2 @@
+El vídeo de fondo configurado en site.json es hero.mp4.
+Se recomiendan menos de 4 MB para mejorar la carga en móviles.

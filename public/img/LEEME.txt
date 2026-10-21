@@ -1,0 +1,9 @@
+El navbar, el footer y el favicon utilizan:
+- Logo TapTap.png
+- Logotipo neón Tap Tap Inmobiliaria.png
+- favicon.ico
+
+Las rutas y dimensiones de los logos y del favicon se configuran en site.json.
+Añade aquí las imágenes que faltan:
+- hero-taptap-poster.webp   (1920x1080, póster del vídeo)
+- og-taptap.webp            (1200x630, imagen para redes)
