@@ -1,0 +1,41 @@
+# Blueprint de Render para Taptap Inmobiliaria (sitio estático).
+# Los sitios estáticos usan type: web + runtime: static.
+services:
+  - type: web
+    name: taptap-inmobiliaria
+    runtime: static
+    branch: main
+    buildCommand: npm run build:render
+    staticPublishPath: ./public
+    envVars:
+      - key: NODE_VERSION
+        value: 20
+
+    # Cabeceras de seguridad y caché
+    headers:
+      - path: /*
+        name: X-Content-Type-Options
+        value: nosniff
+      - path: /*
+        name: Referrer-Policy
+        value: strict-origin-when-cross-origin
+      - path: /css/*
+        name: Cache-Control
+        value: public, max-age=86400
+      - path: /js/*
+        name: Cache-Control
+        value: public, max-age=86400
+      - path: /img/*
+        name: Cache-Control
+        value: public, max-age=604800
+      - path: /videos/*
+        name: Cache-Control
+        value: public, max-age=604800
+
+    # Redirecciones 301. Render NO lee un archivo _redirects: se definen aquí o en el Dashboard
+    # (Settings > Redirects/Rewrites). No hace falta ninguna para el lanzamiento.
+    # Ejemplo, si más adelante hay que redirigir URLs antiguas (landing de Home Asturias):
+    # routes:
+    #   - type: redirect
+    #     source: /home-asturias
+    #     destination: /

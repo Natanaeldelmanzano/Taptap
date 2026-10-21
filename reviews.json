@@ -1,0 +1,18 @@
+{
+  "_ayuda": "Añade aquí SOLO reseñas reales de clientes (con su permiso). Copia el formato de plantilla_resena dentro de 'resenas'. Mientras 'resenas' esté vacío, las páginas muestran únicamente el botón para dejar una opinión. No se genera AggregateRating.",
+  "google_profile_url": "",
+  "google_review_url": "",
+  "titulo_bloque": "Lo que dicen nuestros clientes",
+  "texto_sin_resenas": "Tu opinión ayuda a otros propietarios y compradores. Si has trabajado con nosotros, cuéntanos cómo fue.",
+  "texto_boton": "Déjanos tu opinión en Google",
+  "max_mostrar": 3,
+  "plantilla_resena": {
+    "nombre": "Nombre y inicial del apellido",
+    "zona": "Municipio o barrio",
+    "valoracion": 5,
+    "texto": "Texto literal de la reseña",
+    "fecha": "AAAA-MM-DD",
+    "origen": "google"
+  },
+  "resenas": []
+}

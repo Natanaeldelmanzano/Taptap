@@ -1,0 +1,227 @@
+{
+  "_ayuda": "Fuente única de datos de marca, contacto, redes, formulario y territorio. Los valores entre [CORCHETES] deben sustituirse antes de publicar. Para añadir una red social, rellena solo su campo url: no hay que tocar plantillas.",
+
+  "marca": {
+    "nombre": "Taptap Inmobiliaria",
+    "nombre_corto": "Taptap",
+    "nombre_empresa": "TAPTAP Real Estate",
+    "nombre_anterior": "Home Asturias",
+    "eslogan": "Vende tu vivienda en Asturias con tranquilidad",
+    "descripcion_corta": "Inmobiliaria en Asturias especializada en venta de viviendas, con tasación gratuita y trato cercano.",
+    "logo": { "ruta": "/img/Logo TapTap.png", "ancho": 1370, "alto": 454, "alt": "Taptap Inmobiliaria" },
+    "logo_footer": { "ruta": "/img/Logotipo neón Tap Tap Inmobiliaria.png", "ancho": 1254, "alto": 1254, "alt": "Taptap Inmobiliaria, logotipo neón" },
+    "favicon": "/img/favicon.ico"
+  },
+
+  "dominio": {
+    "url_base": "https://[DOMINIO]",
+    "_ayuda": "Sin barra final. Se usa en canonical, Open Graph, sitemap y schema."
+  },
+
+  "contacto": {
+    "telefono_visible": "642 32 27 17",
+    "telefono_enlace": "+34642322717",
+    "whatsapp_numero": "34642322717",
+    "email": "taptaprealestate@gmail.com",
+    "horario_atencion": "",
+    "mostrar_direccion": false
+  },
+
+  "whatsapp": {
+    "mensaje_base": "Hola, me gustaría información sobre vuestros servicios inmobiliarios.",
+    "anadir_pagina": true,
+    "texto_boton": "WhatsApp",
+    "aria_label": "Escribir por WhatsApp a Taptap Inmobiliaria"
+  },
+
+  "entidad": {
+    "tipo_schema": "RealEstateAgent",
+    "modelo_negocio": "Empresa de prestación de servicios por áreas de servicio, sin dirección física ni oficina abierta al público",
+    "incluir_direccion_en_schema": false,
+    "region": "Asturias",
+    "pais": "ES"
+  },
+
+  "redes": {
+    "_ayuda": "Si url está vacía: el icono se muestra sin enlace real y no se incluye en sameAs del schema.",
+    "tiktok":    { "etiqueta": "TikTok",    "url": "https://www.tiktok.com/@taptapinmobiliaria", "icono": "tiktok",    "aria_label": "Taptap Inmobiliaria en TikTok" },
+    "instagram": { "etiqueta": "Instagram", "url": "", "icono": "instagram", "aria_label": "Taptap Inmobiliaria en Instagram" },
+    "facebook":  { "etiqueta": "Facebook",  "url": "", "icono": "facebook",  "aria_label": "Taptap Inmobiliaria en Facebook" },
+    "linkedin":  { "etiqueta": "LinkedIn",  "url": "", "icono": "linkedin",  "aria_label": "Taptap Inmobiliaria en LinkedIn" }
+  },
+
+  "formulario": {
+    "endpoint": "https://api.web3forms.com/submit",
+    "access_key": "90d1b96c-e863-48ec-b402-04eb11940f67",
+    "campos_ocultos": {
+      "subject": "[TAPTAP] Nuevo mensaje desde la web de Taptap Inmobiliaria",
+      "from_name": "Web Taptap Inmobiliaria",
+      "origen": "taptap-inmobiliaria",
+      "url_pagina": "{{url}}",
+      "titulo_pagina": "{{titulo}}"
+    },
+    "honeypot": "botcheck",
+    "campos": [
+      { "nombre": "nombre", "etiqueta": "Nombre", "tipo": "text", "obligatorio": true, "autocomplete": "name" },
+      { "nombre": "telefono", "etiqueta": "Teléfono", "tipo": "tel", "obligatorio": true, "autocomplete": "tel" },
+      { "nombre": "email", "etiqueta": "Email", "tipo": "email", "obligatorio": true, "autocomplete": "email" },
+      { "nombre": "tipo_consulta", "etiqueta": "Tipo de consulta", "tipo": "select", "obligatorio": true },
+      { "nombre": "municipio_zona", "etiqueta": "Municipio o zona", "tipo": "text_con_sugerencias", "obligatorio": true },
+      { "nombre": "mensaje", "etiqueta": "Mensaje", "tipo": "textarea", "obligatorio": false },
+      { "nombre": "consentimiento", "tipo": "checkbox", "obligatorio": true,
+        "etiqueta": "He leído y acepto la política de privacidad y consiento el tratamiento de mis datos para responder a mi consulta.",
+        "enlace_id": "politicas-privacidad" }
+    ],
+    "tipos_consulta": [
+      { "valor": "vender-vivienda", "etiqueta": "Quiero vender mi vivienda" },
+      { "valor": "comprar", "etiqueta": "Quiero comprar una vivienda" },
+      { "valor": "alquilar", "etiqueta": "Quiero alquilar (larga duración)" },
+      { "valor": "alojamiento-turistico", "etiqueta": "Gestión de alojamiento turístico" },
+      { "valor": "garaje", "etiqueta": "Plaza de garaje" },
+      { "valor": "local", "etiqueta": "Local comercial" },
+      { "valor": "terreno-parcela", "etiqueta": "Terreno o parcela" },
+      { "valor": "nave-industrial", "etiqueta": "Nave industrial" },
+      { "valor": "inversion", "etiqueta": "Inversión inmobiliaria" },
+      { "valor": "academy", "etiqueta": "TAPTAP Real Estate Academy" }
+    ],
+    "texto_boton": "Enviar consulta",
+    "mensaje_exito": "¡Gracias! Hemos recibido tu mensaje y te responderemos lo antes posible.",
+    "mensaje_error": "No hemos podido enviar el formulario. Inténtalo de nuevo o escríbenos por WhatsApp."
+  },
+
+  "hero": {
+    "video": "/videos/hero.mp4",
+    "poster": "/img/hero-taptap-poster.webp",
+    "poster_ancho": 1920,
+    "poster_alto": 1080,
+    "preload": "metadata",
+    "opacidad_capa_oscura": 0.55,
+    "respetar_reduced_motion": true,
+    "peso_recomendado_max_mb": 4,
+    "cta_texto": "Pedir tasación gratuita",
+    "cta_id": "tasacion-gratuita"
+  },
+
+  "proceso": {
+    "titulo": "Cómo trabajamos, paso a paso",
+    "pasos": [
+      { "titulo": "Hablamos", "texto": "Nos cuentas qué necesitas y resolvemos tus dudas, sin compromiso." },
+      { "titulo": "Valoramos", "texto": "Hacemos una tasación gratuita basada en inmuebles comparables y te explicamos cómo llegamos al precio." },
+      { "titulo": "Preparamos", "texto": "Revisamos contigo la documentación, la presentación y la estrategia." },
+      { "titulo": "Gestionamos", "texto": "Promoción, visitas, filtrado de interesados y negociación, informándote de cada paso." },
+      { "titulo": "Cerramos", "texto": "Coordinamos reserva, firma ante notario y entrega, y resolvemos lo que surja después." }
+    ]
+  },
+
+  "resenas": {
+    "archivo": "reviews.json",
+    "max_mostrar": 3,
+    "excluir_en_tipos": ["legal"],
+    "schema_aggregate_rating": false
+  },
+
+  "navegacion": {
+    "principal": [
+      { "etiqueta": "Venta de viviendas", "id": "venta-de-viviendas" },
+      { "etiqueta": "Servicios", "submenu": ["compra-de-viviendas", "alquiler-larga-duracion", "inversion-inmobiliaria", "gestion-alojamientos-turisticos", "plazas-de-garaje", "locales-comerciales", "terrenos-y-parcelas", "naves-industriales", "tasacion-gratuita"] },
+      { "etiqueta": "Zonas", "submenu": ["inmobiliaria-oviedo", "inmobiliaria-gijon", "inmobiliaria-aviles", "inmobiliaria-mieres", "inmobiliaria-siero", "inmobiliaria-llanera"] },
+      { "etiqueta": "Academy", "id": "taptap-real-estate-academy" },
+      { "etiqueta": "Sobre nosotros", "id": "sobre-nosotros" },
+      { "etiqueta": "Contacto", "id": "contacto" }
+    ],
+    "cta": { "etiqueta": "Tasación gratuita", "id": "tasacion-gratuita" }
+  },
+
+  "pie": {
+    "columnas": [
+      { "tipo": "marca", "titulo": "Taptap Inmobiliaria" },
+      { "tipo": "enlaces", "titulo": "Servicios", "ids": ["venta-de-viviendas", "compra-de-viviendas", "alquiler-larga-duracion", "inversion-inmobiliaria", "gestion-alojamientos-turisticos", "plazas-de-garaje", "locales-comerciales", "terrenos-y-parcelas", "naves-industriales", "tasacion-gratuita"] },
+      { "tipo": "enlaces", "titulo": "Zonas", "ids": ["inmobiliaria-oviedo", "inmobiliaria-gijon", "inmobiliaria-aviles", "inmobiliaria-mieres", "inmobiliaria-siero", "inmobiliaria-llanera"] },
+      { "tipo": "enlaces", "titulo": "Empresa y legal", "ids": ["sobre-nosotros", "taptap-real-estate-academy", "contacto", "aviso-legal", "politicas-privacidad", "politicas-cookies", "terminos-servicio"] }
+    ],
+    "texto_legal": "© {{año}} TAPTAP Real Estate. Todos los derechos reservados."
+  },
+
+  "seo": {
+    "locale": "es_ES",
+    "og_imagen": "/img/og-taptap.webp",
+    "og_ancho": 1200,
+    "og_alto": 630,
+    "twitter_card": "summary_large_image",
+    "robots_defecto": "index, follow, max-image-preview:large"
+  },
+
+  "legal": {
+    "_ayuda": "Datos del titular que exige la LSSI en el aviso legal. Completa antes de publicar las páginas legales.",
+    "titular": "TAPTAP Real Estate",
+    "actividad": "Prestación de servicios inmobiliarios y de gestión por áreas de servicio",
+    "forma_juridica": "[PENDIENTE]",
+    "nif_cif": "[PENDIENTE]",
+    "domicilio": "[PENDIENTE]",
+    "email": "taptaprealestate@gmail.com",
+    "inscripcion_registral": ""
+  },
+
+  "idiomas": {
+    "principal": "es",
+    "fase2": {
+      "activo": false,
+      "idiomas": ["en", "de", "zh"],
+      "carpetas": { "en": "/en/", "de": "/de/", "zh": "/zh/" },
+      "x_default": "es"
+    }
+  },
+
+  "indexacion": { "urls_por_dia": 10 },
+
+  "territorio": [
+    { "id": "oviedo", "nombre": "Oviedo", "zonas": [
+      { "id": "centro", "nombre": "Centro", "centro": true },
+      { "id": "naranco", "nombre": "Naranco" },
+      { "id": "la-corredoria", "nombre": "La Corredoria" },
+      { "id": "el-cristo", "nombre": "El Cristo" },
+      { "id": "teatinos", "nombre": "Teatinos" },
+      { "id": "arganosa", "nombre": "Argañosa" },
+      { "id": "pumarin", "nombre": "Pumarín" },
+      { "id": "ventanielles", "nombre": "Ventanielles" },
+      { "id": "otero", "nombre": "Otero" }
+    ]},
+    { "id": "gijon", "nombre": "Gijón", "zonas": [
+      { "id": "calzada", "nombre": "Calzada" },
+      { "id": "cimadevilla", "nombre": "Cimadevilla" },
+      { "id": "el-llano", "nombre": "El Llano" },
+      { "id": "somio", "nombre": "Somió" },
+      { "id": "montevil", "nombre": "Montevil" },
+      { "id": "la-arena", "nombre": "La Arena" },
+      { "id": "nuevo-roces", "nombre": "Nuevo Roces" },
+      { "id": "contrueces", "nombre": "Contrueces" },
+      { "id": "viesques", "nombre": "Viesques" }
+    ]},
+    { "id": "aviles", "nombre": "Avilés", "zonas": [
+      { "id": "centro", "nombre": "Centro", "centro": true },
+      { "id": "la-luz", "nombre": "La Luz" },
+      { "id": "versalles", "nombre": "Versalles" },
+      { "id": "llaranes", "nombre": "Llaranes" },
+      { "id": "la-carriona", "nombre": "La Carriona" },
+      { "id": "villalegre", "nombre": "Villalegre" }
+    ]},
+    { "id": "mieres", "nombre": "Mieres", "zonas": [
+      { "id": "centro", "nombre": "Centro", "centro": true },
+      { "id": "figaredo", "nombre": "Figaredo" },
+      { "id": "turon", "nombre": "Turón" },
+      { "id": "ujo", "nombre": "Ujo" },
+      { "id": "santa-rosa", "nombre": "Santa Rosa" }
+    ]},
+    { "id": "siero", "nombre": "Siero", "zonas": [
+      { "id": "lugones", "nombre": "Lugones" },
+      { "id": "la-pola", "nombre": "La Pola" },
+      { "id": "fresneda", "nombre": "Fresneda" },
+      { "id": "colloto", "nombre": "Colloto" }
+    ]},
+    { "id": "llanera", "nombre": "Llanera", "zonas": [
+      { "id": "posada", "nombre": "Posada" },
+      { "id": "lugo", "nombre": "Lugo" },
+      { "id": "la-morgal", "nombre": "La Morgal" }
+    ]}
+  ]
+}

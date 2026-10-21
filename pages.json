@@ -1,0 +1,3520 @@
+{
+  "_ayuda": "Lista de páginas con sus variables SEO. estado 'listo' = se genera y entra en sitemap; 'borrador' = no se genera en producción hasta rellenar contenido local (campo datos_pendientes). La ruta incluye /pages/ salvo home y legales. indexacion_dia alimenta el plan de Search Console (10 URLs/día).",
+  "total": 89,
+  "paginas": [
+    {
+      "id": "index",
+      "tipo": "home",
+      "estado": "listo",
+      "carpeta": "raiz",
+      "archivo": "index.html",
+      "ruta": "/",
+      "etiqueta": "Inicio",
+      "padre": null,
+      "ciudad": null,
+      "zona": null,
+      "servicio": null,
+      "consulta_defecto": "vender-vivienda",
+      "title": "Taptap Inmobiliaria | Venta de viviendas en Asturias",
+      "description": "Inmobiliaria en Asturias especializada en venta de viviendas: tasación gratuita, proceso explicado paso a paso y trato cercano en Oviedo, Gijón y Avilés.",
+      "h1": "Vende tu vivienda en Asturias con una inmobiliaria cercana y transparente",
+      "intro": "Somos Taptap Inmobiliaria, una empresa de servicios inmobiliarios que trabaja en Oviedo, Gijón, Avilés, Mieres, Siero y Llanera. Nuestro servicio principal es la venta de viviendas: te acompañamos desde la tasación gratuita hasta la firma, explicándote cada paso. También ayudamos con compra, alquiler de larga duración, inversión, gestión de alojamientos turísticos, garajes, locales, terrenos y naves.",
+      "puntos": [
+        "Tasación gratuita y sin compromiso",
+        "Proceso explicado paso a paso, sin letra pequeña",
+        "Trato cercano: sabes con quién hablas y en qué punto estás",
+        "Servicio en seis municipios de Asturias y su entorno"
+      ],
+      "faqs": [
+        {
+          "pregunta": "¿Dónde trabajáis?",
+          "respuesta": "En Oviedo, Gijón, Avilés, Mieres, Siero y Llanera y su entorno. Trabajamos por áreas de servicio, sin oficina abierta al público: te atendemos por teléfono, WhatsApp o en persona en tu zona."
+        },
+        {
+          "pregunta": "¿Cuánto cuesta la tasación?",
+          "respuesta": "La tasación orientativa de tu vivienda es gratuita y sin compromiso."
+        },
+        {
+          "pregunta": "¿Qué servicios ofrecéis además de la venta de viviendas?",
+          "respuesta": "Compra, alquiler de larga duración, inversión inmobiliaria, gestión de alojamientos turísticos, plazas de garaje, locales comerciales, terrenos y parcelas y naves industriales."
+        }
+      ],
+      "schema": [
+        "FAQPage",
+        "RealEstateAgent"
+      ],
+      "sitemap": {
+        "prioridad": 1,
+        "cambio": "weekly"
+      },
+      "indexacion_dia": 1
+    },
+    {
+      "id": "venta-de-viviendas",
+      "tipo": "servicio",
+      "estado": "listo",
+      "carpeta": "pages",
+      "archivo": "venta-de-viviendas.html",
+      "ruta": "/pages/venta-de-viviendas.html",
+      "etiqueta": "Venta de viviendas",
+      "padre": "index",
+      "ciudad": null,
+      "zona": null,
+      "servicio": "venta-de-viviendas",
+      "consulta_defecto": "vender-vivienda",
+      "title": "Venta de viviendas en Asturias | Taptap Inmobiliaria",
+      "description": "Vende tu vivienda en Asturias con tasación gratuita y acompañamiento hasta la firma. Trato cercano en Oviedo, Gijón, Avilés, Mieres, Siero y Llanera.",
+      "h1": "Venta de viviendas en Asturias, con trato cercano",
+      "intro": "Vender una vivienda es una decisión importante y debería ser un proceso claro. En Taptap empezamos escuchando qué necesitas, estudiamos el mercado de tu zona, fijamos contigo un precio realista y nos ocupamos de la promoción, las visitas, la negociación y los trámites hasta la firma. Te explicamos cada paso y no prometemos plazos ni precios que no podamos justificar.",
+      "incluye": [
+        "Tasación gratuita y estudio de precio basado en inmuebles comparables de tu zona",
+        "Revisión de la documentación necesaria antes de salir al mercado",
+        "Presentación cuidada de tu vivienda, con fotografías",
+        "Promoción, filtrado de interesados y gestión de visitas",
+        "Negociación, reserva y coordinación hasta la firma ante notario"
+      ],
+      "faqs": [
+        {
+          "pregunta": "¿Cuánto cuesta la tasación?",
+          "respuesta": "La tasación orientativa es gratuita y sin compromiso. Se basa en inmuebles comparables de la zona y en el estado y las características de tu vivienda; no sustituye a una tasación oficial homologada si tu banco la exige."
+        },
+        {
+          "pregunta": "¿Qué documentos necesito para vender?",
+          "respuesta": "Normalmente: escritura o título de propiedad, nota simple del Registro, último recibo del IBI, certificado de estar al corriente con la comunidad y certificado de eficiencia energética. Según el caso pueden hacer falta otros; te lo revisamos al inicio."
+        },
+        {
+          "pregunta": "¿Cuánto tarda en venderse una vivienda?",
+          "respuesta": "Depende del precio, el estado, la zona y el momento del mercado. No damos plazos garantizados; sí te explicamos cómo evoluciona el interés y ajustamos la estrategia contigo si hace falta."
+        }
+      ],
+      "schema": [
+        "Service",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "sitemap": {
+        "prioridad": 0.9,
+        "cambio": "monthly"
+      },
+      "indexacion_dia": 1
+    },
+    {
+      "id": "compra-de-viviendas",
+      "tipo": "servicio",
+      "estado": "listo",
+      "carpeta": "pages",
+      "archivo": "compra-de-viviendas.html",
+      "ruta": "/pages/compra-de-viviendas.html",
+      "etiqueta": "Compra de viviendas",
+      "padre": "index",
+      "ciudad": null,
+      "zona": null,
+      "servicio": "compra-de-viviendas",
+      "consulta_defecto": "comprar",
+      "title": "Compra de viviendas en Asturias | Taptap",
+      "description": "Te ayudamos a comprar vivienda en Asturias: definimos qué buscas, filtramos opciones, comprobamos la documentación y te acompañamos hasta la firma.",
+      "h1": "Compra de viviendas en Asturias, sin sorpresas",
+      "intro": "Comprar una vivienda implica comparar muchas opciones y revisar bastante papeleo. Te ayudamos a concretar presupuesto y prioridades, a seleccionar inmuebles que encajen, a organizar las visitas y a comprobar la situación registral y comunitaria de cada uno antes de dar el paso. Trabajamos para que decidas con información clara.",
+      "incluye": [
+        "Definición de presupuesto, zona y prioridades",
+        "Selección y visitas de viviendas que encajen contigo",
+        "Comprobación de nota simple, cargas y documentación del inmueble",
+        "Orientación sobre gastos e impuestos de la compra",
+        "Negociación y acompañamiento hasta la firma ante notario"
+      ],
+      "faqs": [
+        {
+          "pregunta": "¿Qué gastos hay además del precio?",
+          "respuesta": "Suelen sumarse impuestos (ITP en vivienda de segunda mano, o IVA y AJD en obra nueva), notaría, registro y gestoría. Los porcentajes dependen de la normativa vigente y de tu situación, así que conviene confirmarlos con un asesor antes de firmar."
+        },
+        {
+          "pregunta": "¿Me ayudáis con la hipoteca?",
+          "respuesta": "Te orientamos sobre cómo preparar la documentación y qué suelen pedir las entidades, pero la concesión depende del banco. Recomendamos comparar ofertas y no firmar nada sin entenderlo."
+        },
+        {
+          "pregunta": "¿Puedo visitar viviendas sin compromiso?",
+          "respuesta": "Sí. Visitar no te obliga a nada. Preparamos las visitas según tus prioridades para que aproveches el tiempo."
+        }
+      ],
+      "schema": [
+        "Service",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "sitemap": {
+        "prioridad": 0.8,
+        "cambio": "monthly"
+      },
+      "indexacion_dia": 1
+    },
+    {
+      "id": "alquiler-larga-duracion",
+      "tipo": "servicio",
+      "estado": "listo",
+      "carpeta": "pages",
+      "archivo": "alquiler-larga-duracion.html",
+      "ruta": "/pages/alquiler-larga-duracion.html",
+      "etiqueta": "Alquiler de larga duración",
+      "padre": "index",
+      "ciudad": null,
+      "zona": null,
+      "servicio": "alquiler-larga-duracion",
+      "consulta_defecto": "alquilar",
+      "title": "Alquiler de larga duración en Asturias | Taptap",
+      "description": "Gestionamos el alquiler de tu vivienda a largo plazo: búsqueda de inquilino, revisión de solvencia, contrato conforme a la LAU y seguimiento.",
+      "h1": "Alquiler de larga duración: tranquilidad para propietarios e inquilinos",
+      "intro": "Alquilar a largo plazo requiere un buen inquilino y un contrato bien hecho. Nos ocupamos de promocionar la vivienda, filtrar candidatos, revisar su documentación y preparar un contrato de arrendamiento ajustado a la normativa. La regulación del alquiler cambia con frecuencia, por eso revisamos contigo las condiciones vigentes antes de empezar.",
+      "incluye": [
+        "Valoración de la renta de mercado de tu vivienda",
+        "Promoción y gestión de visitas",
+        "Revisión de solvencia y documentación de los candidatos",
+        "Contrato de arrendamiento y entrega con inventario",
+        "Orientación sobre fianza, seguros y obligaciones del propietario"
+      ],
+      "faqs": [
+        {
+          "pregunta": "¿Cuánto dura un contrato de alquiler de vivienda?",
+          "respuesta": "La duración se pacta libremente, pero en vivienda habitual la ley prevé prórrogas obligatorias para el arrendador hasta completar cinco años (siete si es persona jurídica). Es una norma que puede cambiar: confírmala con un asesor."
+        },
+        {
+          "pregunta": "¿Cómo se actualiza la renta?",
+          "respuesta": "Depende de lo pactado en el contrato y de la normativa vigente en cada momento. Revisamos la cláusula contigo para que sea clara para ambas partes."
+        },
+        {
+          "pregunta": "¿Qué hago si el inquilino deja de pagar?",
+          "respuesta": "Lo mejor es prevenirlo con un buen filtro y, si quieres, con un seguro de impago. Si ocurre, conviene actuar pronto y con asesoramiento jurídico."
+        }
+      ],
+      "schema": [
+        "Service",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "sitemap": {
+        "prioridad": 0.8,
+        "cambio": "monthly"
+      },
+      "indexacion_dia": 2
+    },
+    {
+      "id": "inversion-inmobiliaria",
+      "tipo": "servicio",
+      "estado": "listo",
+      "carpeta": "pages",
+      "archivo": "inversion-inmobiliaria.html",
+      "ruta": "/pages/inversion-inmobiliaria.html",
+      "etiqueta": "Inversión inmobiliaria",
+      "padre": "index",
+      "ciudad": null,
+      "zona": null,
+      "servicio": "inversion-inmobiliaria",
+      "consulta_defecto": "inversion",
+      "title": "Inversión inmobiliaria en Asturias | Taptap",
+      "description": "Analizamos oportunidades de inversión inmobiliaria en Asturias con números claros y supuestos prudentes. Sin promesas de rentabilidad garantizada.",
+      "h1": "Inversión inmobiliaria en Asturias con números claros",
+      "intro": "Invertir en inmuebles puede ser una buena forma de diversificar, pero solo si los números salen. Te ayudamos a buscar oportunidades, a calcular costes y rentabilidad con hipótesis prudentes y a elegir entre alquilar, reformar para vender u otras estrategias. No garantizamos rentabilidades: te mostramos cómo se calculan para que decidas tú.",
+      "incluye": [
+        "Búsqueda de inmuebles según tu objetivo y presupuesto",
+        "Estudio de rentabilidad con escenarios prudentes",
+        "Estimación de reforma y costes asociados",
+        "Revisión de documentación y riesgos antes de comprar",
+        "Gestión posterior: alquiler, venta o alojamiento turístico según el caso"
+      ],
+      "faqs": [
+        {
+          "pregunta": "¿Qué rentabilidad puedo esperar?",
+          "respuesta": "No podemos garantizarla. Depende del precio de compra, la reforma, el alquiler que se consiga y los gastos. Hacemos los cálculos con supuestos prudentes y los compartimos contigo."
+        },
+        {
+          "pregunta": "¿Conviene reformar antes de vender o alquilar?",
+          "respuesta": "Depende del coste y del precio que admita la zona. Lo calculamos caso a caso para evitar reformas que no se recuperen."
+        },
+        {
+          "pregunta": "¿Puedo invertir desde fuera de Asturias?",
+          "respuesta": "Sí. Podemos encargarnos de las visitas, la revisión documental y la gestión posterior, y mantenerte informado paso a paso."
+        }
+      ],
+      "schema": [
+        "Service",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "sitemap": {
+        "prioridad": 0.8,
+        "cambio": "monthly"
+      },
+      "indexacion_dia": 2
+    },
+    {
+      "id": "gestion-alojamientos-turisticos",
+      "tipo": "servicio",
+      "estado": "listo",
+      "carpeta": "pages",
+      "archivo": "gestion-alojamientos-turisticos.html",
+      "ruta": "/pages/gestion-alojamientos-turisticos.html",
+      "etiqueta": "Gestión de alojamientos turísticos",
+      "padre": "index",
+      "ciudad": null,
+      "zona": null,
+      "servicio": "gestion-alojamientos-turisticos",
+      "consulta_defecto": "alojamiento-turistico",
+      "title": "Gestión de alojamientos turísticos en Asturias | Taptap",
+      "description": "Gestión integral de tu vivienda de uso turístico en Asturias: anuncios, huéspedes, limpieza y mantenimiento, teniendo en cuenta la normativa vigente.",
+      "h1": "Gestión de alojamientos turísticos en Asturias",
+      "intro": "Si tu vivienda puede destinarse a uso turístico, nos ocupamos del día a día: publicación del anuncio, comunicación con huéspedes, entradas y salidas, limpieza y mantenimiento. El alojamiento turístico en Asturias está regulado a nivel autonómico (Ley 6/2024 y Decreto 4/2026) y también influyen el municipio y los estatutos de la comunidad. Antes de empezar revisamos contigo tu caso y te recomendamos consultar la normativa vigente con el organismo competente o un asesor.",
+      "incluye": [
+        "Revisión inicial de viabilidad y requisitos aplicables a tu inmueble",
+        "Creación y optimización de anuncios",
+        "Atención a huéspedes, check-in y check-out",
+        "Coordinación de limpieza, lencería y mantenimiento",
+        "Informes periódicos de ingresos y gastos"
+      ],
+      "faqs": [
+        {
+          "pregunta": "¿Puedo destinar mi vivienda a alojamiento turístico?",
+          "respuesta": "Depende de la normativa autonómica y municipal, de los estatutos de la comunidad y del tipo de inmueble. Revisamos tu caso y te recomendamos confirmar los requisitos vigentes antes de decidir."
+        },
+        {
+          "pregunta": "¿Garantizáis una ocupación o ingresos?",
+          "respuesta": "No. La ocupación depende de la zona, la temporada, el precio y la calidad del alojamiento. Te mostramos escenarios realistas, no cifras garantizadas."
+        },
+        {
+          "pregunta": "¿Qué diferencia hay con un alquiler de larga duración?",
+          "respuesta": "El turístico exige más gestión y trámites, y los ingresos son más variables; el de larga duración es más estable y requiere menos dedicación. Comparamos ambas opciones para tu vivienda."
+        }
+      ],
+      "schema": [
+        "Service",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "sitemap": {
+        "prioridad": 0.8,
+        "cambio": "monthly"
+      },
+      "indexacion_dia": 2
+    },
+    {
+      "id": "plazas-de-garaje",
+      "tipo": "servicio",
+      "estado": "listo",
+      "carpeta": "pages",
+      "archivo": "plazas-de-garaje.html",
+      "ruta": "/pages/plazas-de-garaje.html",
+      "etiqueta": "Plazas de garaje",
+      "padre": "index",
+      "ciudad": null,
+      "zona": null,
+      "servicio": "plazas-de-garaje",
+      "consulta_defecto": "garaje",
+      "title": "Plazas de garaje en Asturias: compra y alquiler | Taptap",
+      "description": "Compra, venta y alquiler de plazas de garaje y trasteros en Asturias, con revisión de la situación registral y de la comunidad de propietarios.",
+      "h1": "Plazas de garaje en Asturias",
+      "intro": "Una plaza de garaje puede ser un complemento de la vivienda, una inversión pequeña y estable o una solución de movilidad diaria. Te ayudamos a comprar, vender o alquilar plazas y trasteros comprobando antes aspectos que a veces se pasan por alto: si la plaza tiene registro independiente o va vinculada a otra finca, sus medidas reales, el acceso y las cuotas de la comunidad.",
+      "incluye": [
+        "Valoración de la plaza según zona, tamaño y accesos",
+        "Comprobación registral: finca independiente o anejo",
+        "Revisión de medidas, acceso y estado del garaje",
+        "Gestión del contrato de compraventa o de alquiler",
+        "Información sobre gastos de comunidad e impuestos aplicables"
+      ],
+      "faqs": [
+        {
+          "pregunta": "¿Puedo vender el garaje por separado de la vivienda?",
+          "respuesta": "Depende de si es una finca registral independiente o un anejo vinculado a otra. La nota simple lo aclara, y lo comprobamos antes de publicar."
+        },
+        {
+          "pregunta": "¿Qué debo mirar antes de comprar una plaza?",
+          "respuesta": "Medidas reales, maniobrabilidad, acceso, estado del edificio, cuotas de comunidad y situación registral. Te recomendamos verla en persona."
+        },
+        {
+          "pregunta": "¿Es buena inversión una plaza de garaje?",
+          "respuesta": "Puede serlo según el precio de compra, la demanda de la zona y los gastos, pero no hay rentabilidad garantizada. Hacemos los números contigo."
+        }
+      ],
+      "schema": [
+        "Service",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "sitemap": {
+        "prioridad": 0.8,
+        "cambio": "monthly"
+      },
+      "indexacion_dia": 2
+    },
+    {
+      "id": "locales-comerciales",
+      "tipo": "servicio",
+      "estado": "listo",
+      "carpeta": "pages",
+      "archivo": "locales-comerciales.html",
+      "ruta": "/pages/locales-comerciales.html",
+      "etiqueta": "Locales comerciales",
+      "padre": "index",
+      "ciudad": null,
+      "zona": null,
+      "servicio": "locales-comerciales",
+      "consulta_defecto": "local",
+      "title": "Locales comerciales en Asturias: venta y alquiler | Taptap",
+      "description": "Venta y alquiler de locales comerciales en Asturias: revisamos uso permitido, licencias, instalaciones y condiciones para que elijas con seguridad.",
+      "h1": "Locales comerciales en Asturias",
+      "intro": "Un local no es solo metros cuadrados: importan el uso permitido, la actividad que admite, la visibilidad, los accesos y el estado de sus instalaciones. Te ayudamos a vender, comprar o alquilar locales comerciales, comprobando lo esencial antes de firmar para que el espacio encaje con el negocio que quieres montar o con el inquilino que buscas.",
+      "incluye": [
+        "Análisis de la actividad prevista y compatibilidad urbanística",
+        "Revisión de licencias o declaraciones responsables existentes",
+        "Valoración del precio o la renta según zona y estado",
+        "Revisión de instalaciones, accesibilidad y suministros",
+        "Condiciones del contrato: duración, fianza y obras"
+      ],
+      "faqs": [
+        {
+          "pregunta": "¿Qué debo comprobar antes de alquilar un local?",
+          "respuesta": "El uso urbanístico permitido, si la actividad que quieres es compatible, el estado de las instalaciones y las condiciones del contrato (duración, fianza, obras, traspaso). Consulta con el ayuntamiento y un asesor antes de firmar."
+        },
+        {
+          "pregunta": "¿El alquiler de un local tributa como el de una vivienda?",
+          "respuesta": "No necesariamente: el tratamiento fiscal es distinto. Te recomendamos confirmarlo con un asesor fiscal para tu caso."
+        },
+        {
+          "pregunta": "¿Puedo vender un local con inquilino?",
+          "respuesta": "Sí, pero el contrato vigente influye en el precio y en los plazos. Revisamos las condiciones antes de salir al mercado."
+        }
+      ],
+      "schema": [
+        "Service",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "sitemap": {
+        "prioridad": 0.8,
+        "cambio": "monthly"
+      },
+      "indexacion_dia": 2
+    },
+    {
+      "id": "terrenos-y-parcelas",
+      "tipo": "servicio",
+      "estado": "listo",
+      "carpeta": "pages",
+      "archivo": "terrenos-y-parcelas.html",
+      "ruta": "/pages/terrenos-y-parcelas.html",
+      "etiqueta": "Terrenos y parcelas",
+      "padre": "index",
+      "ciudad": null,
+      "zona": null,
+      "servicio": "terrenos-y-parcelas",
+      "consulta_defecto": "terreno-parcela",
+      "title": "Terrenos y parcelas en Asturias | Taptap",
+      "description": "Venta y compra de terrenos y parcelas en Asturias: comprobamos clasificación urbanística, linderos, accesos y documentación antes de dar el paso.",
+      "h1": "Terrenos y parcelas en Asturias",
+      "intro": "Con un terreno, lo que se puede hacer depende sobre todo de su clasificación urbanística, y no siempre coincide con lo que parece sobre el terreno. Te ayudamos a vender o comprar parcelas comprobando la situación registral y catastral, los accesos, los linderos y lo que permite el planeamiento municipal antes de comprometerte.",
+      "incluye": [
+        "Consulta de clasificación y condiciones urbanísticas en el ayuntamiento",
+        "Comparación de datos de Registro y Catastro",
+        "Revisión de linderos, accesos y servidumbres",
+        "Valoración según ubicación, superficie y posibilidades de uso",
+        "Apoyo en la documentación para la compraventa"
+      ],
+      "faqs": [
+        {
+          "pregunta": "¿Puedo construir en cualquier parcela?",
+          "respuesta": "No. Depende de la clasificación y calificación urbanística y del planeamiento municipal. Nunca lo des por hecho: se confirma con el ayuntamiento o un técnico antes de comprar."
+        },
+        {
+          "pregunta": "¿Qué diferencia hay entre Registro y Catastro?",
+          "respuesta": "El Registro de la Propiedad recoge la titularidad y las cargas; el Catastro describe la finca con fines fiscales. A veces difieren en superficie o linderos y conviene comprobarlo."
+        },
+        {
+          "pregunta": "¿Necesito un técnico para comprar un terreno?",
+          "respuesta": "Es muy recomendable, sobre todo si quieres edificar. Un arquitecto o ingeniero puede confirmar qué es viable en esa parcela."
+        }
+      ],
+      "schema": [
+        "Service",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "sitemap": {
+        "prioridad": 0.8,
+        "cambio": "monthly"
+      },
+      "indexacion_dia": 2
+    },
+    {
+      "id": "naves-industriales",
+      "tipo": "servicio",
+      "estado": "listo",
+      "carpeta": "pages",
+      "archivo": "naves-industriales.html",
+      "ruta": "/pages/naves-industriales.html",
+      "etiqueta": "Naves industriales",
+      "padre": "index",
+      "ciudad": null,
+      "zona": null,
+      "servicio": "naves-industriales",
+      "consulta_defecto": "nave-industrial",
+      "title": "Naves industriales en Asturias: venta y alquiler | Taptap",
+      "description": "Venta y alquiler de naves industriales y suelo industrial en Asturias: superficie, accesos, potencia, uso permitido y condiciones revisadas contigo.",
+      "h1": "Naves industriales en Asturias",
+      "intro": "Elegir una nave exige mirar más que los metros: altura libre, accesos para camiones, potencia eléctrica, uso permitido en el polígono y estado de la cubierta e instalaciones. Te ayudamos a vender, comprar o alquilar naves y suelo industrial comprobando esos puntos desde el principio para que la decisión encaje con tu actividad.",
+      "incluye": [
+        "Definición de necesidades: superficie, altura, muelles, potencia y accesos",
+        "Revisión de uso permitido y licencias de actividad",
+        "Comprobación de cargas, situación registral y cuotas del polígono",
+        "Valoración del precio o la renta según zona y estado",
+        "Gestión de visitas y negociación"
+      ],
+      "faqs": [
+        {
+          "pregunta": "¿Qué debo comprobar en una nave antes de decidirme?",
+          "respuesta": "La actividad que admite el polígono, la potencia eléctrica disponible, la altura libre, los accesos para vehículos pesados, el estado de la cubierta y las cargas registrales."
+        },
+        {
+          "pregunta": "¿Compensa comprar o alquilar una nave?",
+          "respuesta": "Depende de tu plan de negocio, tu capacidad de inversión y el horizonte temporal. Comparamos ambas opciones con números."
+        },
+        {
+          "pregunta": "¿Podéis buscarme suelo industrial?",
+          "respuesta": "Podemos buscarlo según tus necesidades, comprobando clasificación, servicios disponibles y condiciones del polígono. Cuéntanos qué necesitas."
+        }
+      ],
+      "schema": [
+        "Service",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "sitemap": {
+        "prioridad": 0.8,
+        "cambio": "monthly"
+      },
+      "indexacion_dia": 2
+    },
+    {
+      "id": "tasacion-gratuita",
+      "tipo": "servicio",
+      "estado": "listo",
+      "carpeta": "pages",
+      "archivo": "tasacion-gratuita.html",
+      "ruta": "/pages/tasacion-gratuita.html",
+      "etiqueta": "Tasación gratuita",
+      "padre": "index",
+      "ciudad": null,
+      "zona": null,
+      "servicio": "tasacion-gratuita",
+      "consulta_defecto": "vender-vivienda",
+      "title": "Tasación gratuita de tu vivienda en Asturias | Taptap",
+      "description": "Solicita una tasación gratuita y sin compromiso de tu vivienda en Asturias. Te explicamos cómo llegamos al precio y qué puedes hacer con él.",
+      "h1": "Tasación gratuita de tu vivienda",
+      "intro": "Saber cuánto puede valer tu vivienda es el primer paso para decidir si vender, alquilar o esperar. Nuestra tasación es orientativa, gratuita y sin compromiso: la basamos en inmuebles comparables de tu zona, en el estado y las características de tu vivienda y en la situación del mercado, y te explicamos cómo hemos llegado a la cifra. No sustituye a una tasación oficial de sociedad homologada, que es la que suelen exigir los bancos para una hipoteca.",
+      "incluye": [
+        "Revisión de los datos de tu vivienda: superficie, estado, orientación y extras",
+        "Comparación con inmuebles similares de la zona",
+        "Rango de precio orientativo con su explicación",
+        "Recomendación de estrategia: vender, alquilar o esperar",
+        "Sin compromiso y sin presión para firmar nada"
+      ],
+      "faqs": [
+        {
+          "pregunta": "¿Cuánto tarda la tasación?",
+          "respuesta": "Depende de que nos envíes datos y fotos y, a veces, de una visita. Te indicamos el plazo al empezar, sin prometer rapidez a costa de la precisión."
+        },
+        {
+          "pregunta": "¿Necesito tener la vivienda a la venta?",
+          "respuesta": "No. Puedes pedirla solo para informarte."
+        },
+        {
+          "pregunta": "¿Es lo mismo que una tasación oficial?",
+          "respuesta": "No. La nuestra es una valoración orientativa de mercado; la oficial la emite una sociedad de tasación homologada y suele requerirse para hipotecas."
+        }
+      ],
+      "schema": [
+        "Service",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "sitemap": {
+        "prioridad": 0.9,
+        "cambio": "monthly"
+      },
+      "indexacion_dia": 1
+    },
+    {
+      "id": "inmobiliaria-oviedo",
+      "tipo": "ciudad",
+      "estado": "listo",
+      "carpeta": "pages",
+      "archivo": "inmobiliaria-oviedo.html",
+      "ruta": "/pages/inmobiliaria-oviedo.html",
+      "etiqueta": "Inmobiliaria en Oviedo",
+      "padre": "index",
+      "ciudad": "oviedo",
+      "zona": null,
+      "servicio": null,
+      "consulta_defecto": "vender-vivienda",
+      "title": "Inmobiliaria en Oviedo: venta de viviendas | Taptap",
+      "description": "Inmobiliaria en Oviedo: vende o compra en el centro, Naranco, La Corredoria y más. Tasación gratuita y trato cercano con Taptap.",
+      "h1": "Inmobiliaria en Oviedo",
+      "intro": "Oviedo es la capital del Principado y una ciudad de servicios, con universidad, administración y un casco histórico muy cuidado. Es un mercado con zonas muy distintas entre sí, del centro y el Naranco a barrios grandes como La Corredoria. En Taptap te ayudamos a vender, comprar o alquilar con una tasación gratuita y un proceso explicado paso a paso.",
+      "puntos": [
+        "Venta de viviendas en el centro y en barrios como Naranco, La Corredoria o El Cristo",
+        "Tasación gratuita basada en comparables de tu zona",
+        "Gestión de alquiler, inversión y otros inmuebles en la ciudad"
+      ],
+      "faqs": [
+        {
+          "pregunta": "¿Cuánto cuesta tasar mi vivienda en Oviedo?",
+          "respuesta": "La tasación orientativa de Taptap es gratuita y sin compromiso. Trabajamos en todo el municipio: si tu barrio no tiene página propia en esta web, escríbenos igualmente."
+        }
+      ],
+      "schema": [
+        "RealEstateAgent",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "sitemap": {
+        "prioridad": 0.8,
+        "cambio": "monthly"
+      },
+      "indexacion_dia": 1
+    },
+    {
+      "id": "inmobiliaria-gijon",
+      "tipo": "ciudad",
+      "estado": "listo",
+      "carpeta": "pages",
+      "archivo": "inmobiliaria-gijon.html",
+      "ruta": "/pages/inmobiliaria-gijon.html",
+      "etiqueta": "Inmobiliaria en Gijón",
+      "padre": "index",
+      "ciudad": "gijon",
+      "zona": null,
+      "servicio": null,
+      "consulta_defecto": "vender-vivienda",
+      "title": "Inmobiliaria en Gijón: venta de viviendas | Taptap",
+      "description": "Inmobiliaria en Gijón: vende o compra cerca del mar, de Cimadevilla a Viesques. Tasación gratuita y trato cercano con Taptap.",
+      "h1": "Inmobiliaria en Gijón",
+      "intro": "Gijón es la ciudad más poblada de Asturias, con una fachada marítima que va de la playa de San Lorenzo a la península de Cimadevilla. Combina barrios residenciales, zonas de playa y áreas más recientes como Viesques o Nuevo Roces, y una demanda estacional que influye en la venta y el alquiler. En Taptap te acompañamos con tasación gratuita y trato cercano.",
+      "puntos": [
+        "Barrios con perfiles muy distintos: Cimadevilla, El Llano, Somió, Viesques o Nuevo Roces",
+        "Venta, alquiler de larga duración y gestión de alojamientos turísticos",
+        "Naves y suelo industrial en el entorno de la ciudad"
+      ],
+      "faqs": [
+        {
+          "pregunta": "¿Qué servicios ofrecéis en Gijón?",
+          "respuesta": "Venta y compra de viviendas, alquiler de larga duración, inversión, gestión de alojamientos turísticos, garajes, locales y naves. La venta de viviendas es nuestro servicio principal."
+        }
+      ],
+      "schema": [
+        "RealEstateAgent",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "sitemap": {
+        "prioridad": 0.8,
+        "cambio": "monthly"
+      },
+      "indexacion_dia": 1
+    },
+    {
+      "id": "inmobiliaria-aviles",
+      "tipo": "ciudad",
+      "estado": "listo",
+      "carpeta": "pages",
+      "archivo": "inmobiliaria-aviles.html",
+      "ruta": "/pages/inmobiliaria-aviles.html",
+      "etiqueta": "Inmobiliaria en Avilés",
+      "padre": "index",
+      "ciudad": "aviles",
+      "zona": null,
+      "servicio": null,
+      "consulta_defecto": "vender-vivienda",
+      "title": "Inmobiliaria en Avilés: venta de viviendas | Taptap",
+      "description": "Inmobiliaria en Avilés: vende, compra o alquila en el casco histórico y barrios. Tasación gratuita y trato cercano con Taptap.",
+      "h1": "Inmobiliaria en Avilés",
+      "intro": "Avilés combina un casco histórico muy reconocido con la ría, el Centro Niemeyer y una tradición industrial y portuaria. Es una ciudad de tamaño manejable, con barrios como Llaranes, construido para trabajadores de la industria siderúrgica, y un mercado de vivienda con perfiles muy diversos. En Taptap te ayudamos a vender, comprar o alquilar con información clara.",
+      "puntos": [
+        "Casco histórico y barrios con perfiles de comprador distintos",
+        "Locales comerciales en calles céntricas y zonas de hostelería",
+        "Naves y suelo industrial en parques empresariales del entorno"
+      ],
+      "faqs": [
+        {
+          "pregunta": "¿Vendéis solo en el casco histórico de Avilés?",
+          "respuesta": "No. Trabajamos en toda la ciudad y sus barrios, y adaptamos la estrategia de venta al perfil de cada zona."
+        }
+      ],
+      "schema": [
+        "RealEstateAgent",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "sitemap": {
+        "prioridad": 0.8,
+        "cambio": "monthly"
+      },
+      "indexacion_dia": 1
+    },
+    {
+      "id": "inmobiliaria-mieres",
+      "tipo": "ciudad",
+      "estado": "listo",
+      "carpeta": "pages",
+      "archivo": "inmobiliaria-mieres.html",
+      "ruta": "/pages/inmobiliaria-mieres.html",
+      "etiqueta": "Inmobiliaria en Mieres",
+      "padre": "index",
+      "ciudad": "mieres",
+      "zona": null,
+      "servicio": null,
+      "consulta_defecto": "vender-vivienda",
+      "title": "Inmobiliaria en Mieres: venta de viviendas | Taptap",
+      "description": "Inmobiliaria en Mieres: vivienda en el valle del Caudal con tasación gratuita. Tasación gratuita y trato cercano con Taptap.",
+      "h1": "Inmobiliaria en Mieres",
+      "intro": "Mieres es la capital del valle del Caudal, con un pasado minero muy presente en núcleos como Figaredo o Turón, y con servicios y comercio en su núcleo urbano. Combina vivienda urbana con pueblos y terreno más rural, lo que permite encontrar desde pisos hasta casas con parcela. En Taptap te acompañamos con tasación gratuita.",
+      "puntos": [
+        "Pisos en el núcleo urbano y casas con terreno en los pueblos del concejo",
+        "Terrenos y parcelas con comprobación urbanística previa",
+        "Zonas como Figaredo, Turón, Ujo o Santa Rosa"
+      ],
+      "faqs": [
+        {
+          "pregunta": "¿Podéis vender una casa con terreno en un pueblo del concejo?",
+          "respuesta": "Sí. En esos casos revisamos con especial atención la clasificación urbanística, los linderos, los accesos y la coincidencia entre Registro y Catastro."
+        }
+      ],
+      "schema": [
+        "RealEstateAgent",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "sitemap": {
+        "prioridad": 0.8,
+        "cambio": "monthly"
+      },
+      "indexacion_dia": 2
+    },
+    {
+      "id": "inmobiliaria-siero",
+      "tipo": "ciudad",
+      "estado": "listo",
+      "carpeta": "pages",
+      "archivo": "inmobiliaria-siero.html",
+      "ruta": "/pages/inmobiliaria-siero.html",
+      "etiqueta": "Inmobiliaria en Siero",
+      "padre": "index",
+      "ciudad": "siero",
+      "zona": null,
+      "servicio": null,
+      "consulta_defecto": "vender-vivienda",
+      "title": "Inmobiliaria en Siero: venta de viviendas | Taptap",
+      "description": "Inmobiliaria en Siero: vivienda en Lugones, La Pola y alrededores. Tasación gratuita y trato cercano con Taptap.",
+      "h1": "Inmobiliaria en Siero",
+      "intro": "Siero es un concejo extenso y muy poblado, muy próximo a Oviedo, con La Pola como capital y núcleos como Lugones, Fresneda o Colloto. Mezcla vivienda urbana, urbanizaciones y casas con terreno, además de suelo industrial y comercial. En Taptap te ayudamos a vender, comprar o alquilar con una tasación gratuita.",
+      "puntos": [
+        "Pisos y viviendas en Lugones, La Pola y otros núcleos",
+        "Casas con terreno y parcelas con comprobación urbanística",
+        "Naves y suelo industrial en polígonos del concejo"
+      ],
+      "faqs": [
+        {
+          "pregunta": "¿El impuesto de plusvalía es igual en todos los municipios?",
+          "respuesta": "No: lo regula cada ayuntamiento con su propia ordenanza. Te orientamos sobre cómo se calcula en tu caso y te recomendamos confirmarlo con un asesor."
+        }
+      ],
+      "schema": [
+        "RealEstateAgent",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "sitemap": {
+        "prioridad": 0.8,
+        "cambio": "monthly"
+      },
+      "indexacion_dia": 2
+    },
+    {
+      "id": "inmobiliaria-llanera",
+      "tipo": "ciudad",
+      "estado": "listo",
+      "carpeta": "pages",
+      "archivo": "inmobiliaria-llanera.html",
+      "ruta": "/pages/inmobiliaria-llanera.html",
+      "etiqueta": "Inmobiliaria en Llanera",
+      "padre": "index",
+      "ciudad": "llanera",
+      "zona": null,
+      "servicio": null,
+      "consulta_defecto": "vender-vivienda",
+      "title": "Inmobiliaria en Llanera: venta de viviendas | Taptap",
+      "description": "Inmobiliaria en Llanera: vivienda en Posada, Lugo y La Morgal. Tasación gratuita y trato cercano con Taptap.",
+      "h1": "Inmobiliaria en Llanera",
+      "intro": "Llanera está en pleno centro de Asturias, entre Oviedo, Avilés y Gijón, con Posada como capital y núcleos como Lugo o La Morgal. Su ubicación y sus parques empresariales atraen tanto a quien busca vivienda como a quien necesita nave o suelo industrial. En Taptap te acompañamos con tasación gratuita y trato cercano.",
+      "puntos": [
+        "Vivienda en Posada, Lugo de Llanera y otros núcleos",
+        "Naves y suelo industrial en parques empresariales",
+        "Terrenos y parcelas con comprobación urbanística previa"
+      ],
+      "faqs": [
+        {
+          "pregunta": "¿Buscáis también naves en Llanera?",
+          "respuesta": "Sí, podemos ayudarte a vender, comprar o alquilar naves y suelo industrial, revisando uso permitido, accesos y condiciones del polígono."
+        }
+      ],
+      "schema": [
+        "RealEstateAgent",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "sitemap": {
+        "prioridad": 0.8,
+        "cambio": "monthly"
+      },
+      "indexacion_dia": 2
+    },
+    {
+      "id": "venta-de-viviendas-centro-oviedo",
+      "tipo": "barrio",
+      "estado": "listo",
+      "carpeta": "pages",
+      "archivo": "venta-de-viviendas-centro-oviedo.html",
+      "ruta": "/pages/venta-de-viviendas-centro-oviedo.html",
+      "etiqueta": "Centro",
+      "padre": "inmobiliaria-oviedo",
+      "ciudad": "oviedo",
+      "zona": "centro",
+      "servicio": "venta-de-viviendas",
+      "consulta_defecto": "vender-vivienda",
+      "title": "Venta de viviendas en el centro de Oviedo | Taptap",
+      "description": "Vende tu vivienda en el centro de Oviedo: pisos en el casco histórico y el ensanche. Tasación gratuita y acompañamiento con Taptap.",
+      "h1": "Venta de viviendas en el centro de Oviedo",
+      "intro": "Vender en el centro de Oviedo significa tratar con edificios de épocas muy distintas, desde fincas históricas hasta construcciones más recientes. Los compradores suelen fijarse en la ubicación, la altura, el ascensor y el estado del edificio, y conviene tener esa información preparada.",
+      "puntos": [
+        "Edificios de distintas épocas: fachada, cubierta y ascensor pesan en la decisión",
+        "En fincas antiguas, ten a mano la inspección técnica del edificio (IEE/ITE) y las obras de la comunidad",
+        "Ruido, luz y orientación influyen mucho en el precio que admite cada piso"
+      ],
+      "faqs": [
+        {
+          "pregunta": "¿Influye el estado del edificio en el precio?",
+          "respuesta": "Sí. En fincas antiguas los compradores preguntan por ascensor, reformas aprobadas e inspecciones técnicas. Tener esa información lista ayuda a negociar con más seguridad."
+        }
+      ],
+      "schema": [
+        "Service",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "sitemap": {
+        "prioridad": 0.6,
+        "cambio": "monthly"
+      },
+      "indexacion_dia": 3
+    },
+    {
+      "id": "venta-de-viviendas-naranco-oviedo",
+      "tipo": "barrio",
+      "estado": "listo",
+      "carpeta": "pages",
+      "archivo": "venta-de-viviendas-naranco-oviedo.html",
+      "ruta": "/pages/venta-de-viviendas-naranco-oviedo.html",
+      "etiqueta": "Naranco",
+      "padre": "inmobiliaria-oviedo",
+      "ciudad": "oviedo",
+      "zona": "naranco",
+      "servicio": "venta-de-viviendas",
+      "consulta_defecto": "vender-vivienda",
+      "title": "Venta de viviendas en Naranco, Oviedo | Taptap",
+      "description": "Vende tu vivienda en Naranco (Oviedo): viviendas en la zona del monte Naranco. Tasación gratuita y acompañamiento con Taptap.",
+      "h1": "Venta de viviendas en Naranco, Oviedo",
+      "intro": "El Naranco es uno de los símbolos de Oviedo: el monte donde se encuentran Santa María del Naranco y San Miguel de Lillo, joyas del prerrománico asturiano. Quien vende aquí suele tener viviendas muy distintas entre sí, y presentar bien su entorno, vistas y accesos marca la diferencia.",
+      "puntos": [
+        "Entorno, vistas y orientación son argumentos de venta, siempre que se muestren con buenas fotos",
+        "Accesos, pendientes y aparcamiento: conviene explicarlos con claridad a los compradores",
+        "Si es vivienda unifamiliar o con terreno, revisamos linderos y coincidencia entre Registro y Catastro"
+      ],
+      "faqs": [
+        {
+          "pregunta": "¿Se venden igual los pisos que las casas en el Naranco?",
+          "respuesta": "El proceso es el mismo, pero una casa con terreno requiere comprobar más cosas (linderos, superficie en Catastro, servidumbres). Lo revisamos al principio para evitar retrasos en la firma."
+        }
+      ],
+      "schema": [
+        "Service",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "sitemap": {
+        "prioridad": 0.6,
+        "cambio": "monthly"
+      },
+      "indexacion_dia": 3
+    },
+    {
+      "id": "venta-de-viviendas-la-corredoria-oviedo",
+      "tipo": "barrio",
+      "estado": "listo",
+      "carpeta": "pages",
+      "archivo": "venta-de-viviendas-la-corredoria-oviedo.html",
+      "ruta": "/pages/venta-de-viviendas-la-corredoria-oviedo.html",
+      "etiqueta": "La Corredoria",
+      "padre": "inmobiliaria-oviedo",
+      "ciudad": "oviedo",
+      "zona": "la-corredoria",
+      "servicio": "venta-de-viviendas",
+      "consulta_defecto": "vender-vivienda",
+      "title": "Venta de viviendas en La Corredoria, Oviedo | Taptap",
+      "description": "Vende tu vivienda en La Corredoria (Oviedo): pisos en uno de los barrios más grandes de Oviedo. Tasación gratuita y acompañamiento con Taptap.",
+      "h1": "Venta de viviendas en La Corredoria, Oviedo",
+      "intro": "La Corredoria es un barrio extenso y muy poblado, con mucha oferta de vivienda y servicios de barrio. Al haber muchos pisos parecidos a la venta, el precio ajustado, las buenas fotos y detalles como garaje o trastero marcan la diferencia.",
+      "puntos": [
+        "Mucha oferta comparable: el precio de salida debe estudiarse con cuidado",
+        "Garaje, trastero y ascensor suelen pesar en la decisión de compra",
+        "Fotos y presentación cuidadas ayudan a destacar entre anuncios similares"
+      ],
+      "faqs": [
+        {
+          "pregunta": "¿Cómo destaco mi piso entre tantos anuncios?",
+          "respuesta": "Con un precio bien fundamentado, buena presentación y respuesta rápida a los interesados. Te ayudamos con la valoración, las fotos y la gestión de visitas."
+        }
+      ],
+      "schema": [
+        "Service",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "sitemap": {
+        "prioridad": 0.6,
+        "cambio": "monthly"
+      },
+      "indexacion_dia": 3
+    },
+    {
+      "id": "venta-de-viviendas-el-cristo-oviedo",
+      "tipo": "barrio",
+      "estado": "listo",
+      "carpeta": "pages",
+      "archivo": "venta-de-viviendas-el-cristo-oviedo.html",
+      "ruta": "/pages/venta-de-viviendas-el-cristo-oviedo.html",
+      "etiqueta": "El Cristo",
+      "padre": "inmobiliaria-oviedo",
+      "ciudad": "oviedo",
+      "zona": "el-cristo",
+      "servicio": "venta-de-viviendas",
+      "consulta_defecto": "vender-vivienda",
+      "title": "Venta de viviendas en El Cristo, Oviedo | Taptap",
+      "description": "Vende tu vivienda en El Cristo (Oviedo): viviendas cerca del campus universitario. Tasación gratuita y acompañamiento con Taptap.",
+      "h1": "Venta de viviendas en El Cristo, Oviedo",
+      "intro": "El Cristo está muy ligado a la vida universitaria por su campus, lo que genera una demanda particular de alquiler para estudiantes y personal docente, y también de inversores. Si vendes aquí, es clave saber si tu comprador viene a vivir o a invertir.",
+      "puntos": [
+        "Compradores inversores que buscan alquilar a estudiantes o profesionales",
+        "Si hay inquilino, el contrato vigente influye en la venta",
+        "Tamaño y distribución pesan mucho en este perfil de comprador"
+      ],
+      "faqs": [
+        {
+          "pregunta": "¿Puedo vender con inquilino?",
+          "respuesta": "Sí. El contrato vigente (duración, renta, prórrogas) forma parte de lo que valora el comprador, así que lo revisamos antes de publicar."
+        }
+      ],
+      "schema": [
+        "Service",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "sitemap": {
+        "prioridad": 0.6,
+        "cambio": "monthly"
+      },
+      "indexacion_dia": 3
+    },
+    {
+      "id": "venta-de-viviendas-teatinos-oviedo",
+      "tipo": "barrio",
+      "estado": "listo",
+      "carpeta": "pages",
+      "archivo": "venta-de-viviendas-teatinos-oviedo.html",
+      "ruta": "/pages/venta-de-viviendas-teatinos-oviedo.html",
+      "etiqueta": "Teatinos",
+      "padre": "inmobiliaria-oviedo",
+      "ciudad": "oviedo",
+      "zona": "teatinos",
+      "servicio": "venta-de-viviendas",
+      "consulta_defecto": "vender-vivienda",
+      "title": "Venta de viviendas en Teatinos, Oviedo | Taptap",
+      "description": "Vende tu vivienda en Teatinos (Oviedo): viviendas en la zona del HUCA y La Cadellada. Tasación gratuita y acompañamiento con Taptap.",
+      "h1": "Venta de viviendas en Teatinos, Oviedo",
+      "intro": "Teatinos es un barrio de Oviedo con identidad propia: tiene su parroquia, la de Nuestra Señora de Covadonga, y una historia ligada al primer gran campo de deportes de la ciudad, el antiguo estadio de Teatinos. Hoy se asocia a la zona del HUCA y La Cadellada, y los compradores suelen preguntar por servicios cercanos y accesos.",
+      "puntos": [
+        "Barrio con parroquia y vida vecinal propias, un argumento de arraigo",
+        "Proximidad al HUCA y La Cadellada: puede interesar a quien trabaja o estudia cerca",
+        "Edificios de distintas épocas: conviene presentar bien el estado y la eficiencia energética"
+      ],
+      "faqs": [
+        {
+          "pregunta": "¿Influye la cercanía del hospital en el valor de la vivienda?",
+          "respuesta": "Puede ser un argumento para quien trabaja cerca, pero cada vivienda se valora por su estado, orientación y edificio. Lo estudiamos con comparables de la zona antes de fijar precio."
+        }
+      ],
+      "schema": [
+        "Service",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "sitemap": {
+        "prioridad": 0.6,
+        "cambio": "monthly"
+      },
+      "indexacion_dia": 3
+    },
+    {
+      "id": "venta-de-viviendas-arganosa-oviedo",
+      "tipo": "barrio",
+      "estado": "listo",
+      "carpeta": "pages",
+      "archivo": "venta-de-viviendas-arganosa-oviedo.html",
+      "ruta": "/pages/venta-de-viviendas-arganosa-oviedo.html",
+      "etiqueta": "Argañosa",
+      "padre": "inmobiliaria-oviedo",
+      "ciudad": "oviedo",
+      "zona": "arganosa",
+      "servicio": "venta-de-viviendas",
+      "consulta_defecto": "vender-vivienda",
+      "title": "Venta de viviendas en Argañosa, Oviedo | Taptap",
+      "description": "Vende tu vivienda en Argañosa (Oviedo): pisos con apeadero de Cercanías en el barrio. Tasación gratuita y acompañamiento con Taptap.",
+      "h1": "Venta de viviendas en Argañosa, Oviedo",
+      "intro": "La Argañosa es un barrio consolidado de Oviedo, con supermercados y comercio de proximidad en la calle que le da nombre y un apeadero de Cercanías en la calle Favila. Para vender aquí conviene destacar la comodidad del día a día y las opciones de transporte público.",
+      "puntos": [
+        "Apeadero ferroviario en el barrio: un argumento para quien se desplaza en tren",
+        "Supermercados y servicios cotidianos en la propia calle Argañosa",
+        "Edificios de distintas décadas: ascensor, accesibilidad y reformas marcan la diferencia"
+      ],
+      "faqs": [
+        {
+          "pregunta": "¿Es importante destacar el transporte público al vender?",
+          "respuesta": "Sí, sobre todo para compradores que no usan coche a diario. Lo incluimos en el anuncio junto con los servicios cercanos y fotos reales del entorno."
+        }
+      ],
+      "schema": [
+        "Service",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "sitemap": {
+        "prioridad": 0.6,
+        "cambio": "monthly"
+      },
+      "indexacion_dia": 3
+    },
+    {
+      "id": "venta-de-viviendas-pumarin-oviedo",
+      "tipo": "barrio",
+      "estado": "borrador",
+      "carpeta": "pages",
+      "archivo": "venta-de-viviendas-pumarin-oviedo.html",
+      "ruta": "/pages/venta-de-viviendas-pumarin-oviedo.html",
+      "etiqueta": "Pumarín",
+      "padre": "inmobiliaria-oviedo",
+      "ciudad": "oviedo",
+      "zona": "pumarin",
+      "servicio": "venta-de-viviendas",
+      "consulta_defecto": "vender-vivienda",
+      "title": "Venta de viviendas en Pumarín, Oviedo | Taptap",
+      "description": "Vende tu vivienda en Pumarín (Oviedo) con tasación gratuita y acompañamiento paso a paso. Trato cercano con Taptap Inmobiliaria.",
+      "h1": "Venta de viviendas en Pumarín, Oviedo",
+      "intro": "",
+      "puntos": [],
+      "faqs": [],
+      "schema": [
+        "Service",
+        "BreadcrumbList"
+      ],
+      "sitemap": {
+        "prioridad": 0.6,
+        "cambio": "monthly"
+      },
+      "datos_pendientes": "Las fuentes solo lo agrupan con Teatinos (zonas «Teatinos - Pumarín» y «Milán-Pumarín», cerca del Campus del Milán). Decide si merece página propia o si conviene fusionarlo con Teatinos. Aporta 2-3 datos propios de la zona.",
+      "indexacion_dia": null
+    },
+    {
+      "id": "venta-de-viviendas-ventanielles-oviedo",
+      "tipo": "barrio",
+      "estado": "borrador",
+      "carpeta": "pages",
+      "archivo": "venta-de-viviendas-ventanielles-oviedo.html",
+      "ruta": "/pages/venta-de-viviendas-ventanielles-oviedo.html",
+      "etiqueta": "Ventanielles",
+      "padre": "inmobiliaria-oviedo",
+      "ciudad": "oviedo",
+      "zona": "ventanielles",
+      "servicio": "venta-de-viviendas",
+      "consulta_defecto": "vender-vivienda",
+      "title": "Venta de viviendas en Ventanielles, Oviedo | Taptap",
+      "description": "Vende tu vivienda en Ventanielles (Oviedo) con tasación gratuita y acompañamiento paso a paso. Trato cercano con Taptap Inmobiliaria.",
+      "h1": "Venta de viviendas en Ventanielles, Oviedo",
+      "intro": "",
+      "puntos": [],
+      "faqs": [],
+      "schema": [
+        "Service",
+        "BreadcrumbList"
+      ],
+      "sitemap": {
+        "prioridad": 0.6,
+        "cambio": "monthly"
+      },
+      "datos_pendientes": "Verificado: biblioteca pública municipal abierta en 1990 en la plaza Lago Enol. Falta al menos un segundo dato verificable (tipo de edificación, servicios, comunicaciones).",
+      "indexacion_dia": null
+    },
+    {
+      "id": "venta-de-viviendas-otero-oviedo",
+      "tipo": "barrio",
+      "estado": "borrador",
+      "carpeta": "pages",
+      "archivo": "venta-de-viviendas-otero-oviedo.html",
+      "ruta": "/pages/venta-de-viviendas-otero-oviedo.html",
+      "etiqueta": "Otero",
+      "padre": "inmobiliaria-oviedo",
+      "ciudad": "oviedo",
+      "zona": "otero",
+      "servicio": "venta-de-viviendas",
+      "consulta_defecto": "vender-vivienda",
+      "title": "Venta de viviendas en Otero, Oviedo | Taptap",
+      "description": "Vende tu vivienda en Otero (Oviedo) con tasación gratuita y acompañamiento paso a paso. Trato cercano con Taptap Inmobiliaria.",
+      "h1": "Venta de viviendas en Otero, Oviedo",
+      "intro": "",
+      "puntos": [],
+      "faqs": [],
+      "schema": [
+        "Service",
+        "BreadcrumbList"
+      ],
+      "sitemap": {
+        "prioridad": 0.6,
+        "cambio": "monthly"
+      },
+      "datos_pendientes": "Solo hay fuentes turísticas y de portales: barrio contiguo a San Lázaro, al sur del casco, cerca del Parque de Invierno. Faltan 2-3 datos propios verificables.",
+      "indexacion_dia": null
+    },
+    {
+      "id": "venta-de-viviendas-calzada-gijon",
+      "tipo": "barrio",
+      "estado": "listo",
+      "carpeta": "pages",
+      "archivo": "venta-de-viviendas-calzada-gijon.html",
+      "ruta": "/pages/venta-de-viviendas-calzada-gijon.html",
+      "etiqueta": "Calzada",
+      "padre": "inmobiliaria-gijon",
+      "ciudad": "gijon",
+      "zona": "calzada",
+      "servicio": "venta-de-viviendas",
+      "consulta_defecto": "vender-vivienda",
+      "title": "Venta de viviendas en Calzada, Gijón | Taptap",
+      "description": "Vende tu vivienda en Calzada (Gijón): viviendas en el barrio histórico del oeste de Gijón. Tasación gratuita y acompañamiento con Taptap.",
+      "h1": "Venta de viviendas en Calzada, Gijón",
+      "intro": "La Calzada nació con la expansión de Gijón hacia el oeste, ligada al puerto de El Musel y a la industria, y fue hogar de estibadores, metalúrgicos y cargadores. Conserva un fuerte carácter de barrio, con el Ateneo de La Calzada como referente y la playa de El Arbeyal en su entorno.",
+      "puntos": [
+        "Barrio con identidad y vida vecinal propias, un argumento de arraigo",
+        "Cerca de la playa de El Arbeyal y del paseo hacia la playa de Poniente",
+        "Antiguas fábricas reconvertidas en centros sociales y empresariales: conviene explicar cómo es hoy el entorno"
+      ],
+      "faqs": [
+        {
+          "pregunta": "¿Cómo influye la historia industrial del barrio en la venta?",
+          "respuesta": "Cada vez más compradores valoran la cercanía al mar y a los paseos. Explicamos con datos reales cómo es el entorno actual y evitamos promesas sobre revalorizaciones."
+        }
+      ],
+      "schema": [
+        "Service",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "sitemap": {
+        "prioridad": 0.6,
+        "cambio": "monthly"
+      },
+      "indexacion_dia": 3
+    },
+    {
+      "id": "venta-de-viviendas-cimadevilla-gijon",
+      "tipo": "barrio",
+      "estado": "listo",
+      "carpeta": "pages",
+      "archivo": "venta-de-viviendas-cimadevilla-gijon.html",
+      "ruta": "/pages/venta-de-viviendas-cimadevilla-gijon.html",
+      "etiqueta": "Cimadevilla",
+      "padre": "inmobiliaria-gijon",
+      "ciudad": "gijon",
+      "zona": "cimadevilla",
+      "servicio": "venta-de-viviendas",
+      "consulta_defecto": "vender-vivienda",
+      "title": "Venta de viviendas en Cimadevilla, Gijón | Taptap",
+      "description": "Vende tu vivienda en Cimadevilla (Gijón): viviendas en el casco antiguo marinero de Gijón. Tasación gratuita y acompañamiento con Taptap.",
+      "h1": "Venta de viviendas en Cimadevilla, Gijón",
+      "intro": "Cimadevilla es el barrio antiguo de Gijón, sobre la península de Santa Catalina, con calles estrechas, ambiente marinero y vistas al mar desde el cerro donde se encuentra el Elogio del Horizonte de Chillida. Son viviendas con mucho carácter, y muchas veces rehabilitadas.",
+      "puntos": [
+        "Viviendas con carácter y, a menudo, rehabilitadas: documentar las reformas ayuda",
+        "Aparcamiento y accesos limitados: es un punto por el que el comprador suele preguntar",
+        "Interés residencial y de inversión por su ubicación; si se piensa en uso turístico, hay que comprobar la normativa"
+      ],
+      "faqs": [
+        {
+          "pregunta": "¿Puedo destinar un piso de Cimadevilla a uso turístico?",
+          "respuesta": "Depende de la normativa autonómica y municipal y de los estatutos de la comunidad. Debe confirmarse antes de comprar o de anunciar la vivienda con ese fin."
+        }
+      ],
+      "schema": [
+        "Service",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "sitemap": {
+        "prioridad": 0.6,
+        "cambio": "monthly"
+      },
+      "indexacion_dia": 4
+    },
+    {
+      "id": "venta-de-viviendas-el-llano-gijon",
+      "tipo": "barrio",
+      "estado": "listo",
+      "carpeta": "pages",
+      "archivo": "venta-de-viviendas-el-llano-gijon.html",
+      "ruta": "/pages/venta-de-viviendas-el-llano-gijon.html",
+      "etiqueta": "El Llano",
+      "padre": "inmobiliaria-gijon",
+      "ciudad": "gijon",
+      "zona": "el-llano",
+      "servicio": "venta-de-viviendas",
+      "consulta_defecto": "vender-vivienda",
+      "title": "Venta de viviendas en El Llano, Gijón | Taptap",
+      "description": "Vende tu vivienda en El Llano (Gijón): pisos en un barrio consolidado con comercio y servicios. Tasación gratuita y acompañamiento con Taptap.",
+      "h1": "Venta de viviendas en El Llano, Gijón",
+      "intro": "El Llano es un barrio consolidado de Gijón, con mucho comercio y servicios de proximidad. Los compradores suelen buscar vivienda para vivir, así que cuentan mucho la comodidad diaria, el estado del edificio y la reforma interior.",
+      "puntos": [
+        "Comercio y servicios cerca: es un argumento de venta cotidiano",
+        "Reformas interiores y calidad de cocina y baños influyen mucho en el precio",
+        "Ascensor y accesibilidad son preguntas habituales del comprador"
+      ],
+      "faqs": [
+        {
+          "pregunta": "¿Compensa reformar antes de vender?",
+          "respuesta": "Depende del coste y de lo que admita el precio de la zona. Calculamos contigo si una reforma ligera o una buena puesta en escena se recupera, para no gastar de más."
+        }
+      ],
+      "schema": [
+        "Service",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "sitemap": {
+        "prioridad": 0.6,
+        "cambio": "monthly"
+      },
+      "indexacion_dia": 4
+    },
+    {
+      "id": "venta-de-viviendas-somio-gijon",
+      "tipo": "barrio",
+      "estado": "listo",
+      "carpeta": "pages",
+      "archivo": "venta-de-viviendas-somio-gijon.html",
+      "ruta": "/pages/venta-de-viviendas-somio-gijon.html",
+      "etiqueta": "Somió",
+      "padre": "inmobiliaria-gijon",
+      "ciudad": "gijon",
+      "zona": "somio",
+      "servicio": "venta-de-viviendas",
+      "consulta_defecto": "vender-vivienda",
+      "title": "Venta de viviendas en Somió, Gijón | Taptap",
+      "description": "Vende tu vivienda en Somió (Gijón): chalets y viviendas unifamiliares en Somió. Tasación gratuita y acompañamiento con Taptap.",
+      "h1": "Venta de viviendas en Somió, Gijón",
+      "intro": "Somió es una zona residencial de Gijón conocida por sus viviendas unifamiliares y chalets rodeados de verde. Vender aquí implica sobre todo vender parcela, superficie construida y entorno, así que la documentación y la presentación son especialmente importantes.",
+      "puntos": [
+        "Comprobar superficie construida, parcela y linderos entre Registro y Catastro",
+        "Licencias de obra de ampliaciones y reformas: conviene tenerlas a mano",
+        "Presentación cuidada: exteriores, jardín y entorno son parte del valor"
+      ],
+      "faqs": [
+        {
+          "pregunta": "¿Qué documentación es clave para vender un chalet?",
+          "respuesta": "Escritura, nota simple, certificado energético, recibo del IBI y, si hubo obras, licencias y planos. Revisamos que todo cuadre antes de publicar."
+        }
+      ],
+      "schema": [
+        "Service",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "sitemap": {
+        "prioridad": 0.6,
+        "cambio": "monthly"
+      },
+      "indexacion_dia": 4
+    },
+    {
+      "id": "venta-de-viviendas-montevil-gijon",
+      "tipo": "barrio",
+      "estado": "listo",
+      "carpeta": "pages",
+      "archivo": "venta-de-viviendas-montevil-gijon.html",
+      "ruta": "/pages/venta-de-viviendas-montevil-gijon.html",
+      "etiqueta": "Montevil",
+      "padre": "inmobiliaria-gijon",
+      "ciudad": "gijon",
+      "zona": "montevil",
+      "servicio": "venta-de-viviendas",
+      "consulta_defecto": "vender-vivienda",
+      "title": "Venta de viviendas en Montevil, Gijón | Taptap",
+      "description": "Vende tu vivienda en Montevil (Gijón): viviendas en un barrio residencial del sur de Gijón. Tasación gratuita y acompañamiento con Taptap.",
+      "h1": "Venta de viviendas en Montevil, Gijón",
+      "intro": "Montevil es un barrio residencial del sur de Gijón, de creación relativamente reciente junto a Contrueces y Roces. Los servicios municipales de referencia están en el Centro Municipal Integrado Pumarín-Gijón Sur, y El Corte Inglés queda cerca.",
+      "puntos": [
+        "Barrio de desarrollo más reciente que otros de Gijón, con edificios de construcción más moderna",
+        "Servicios públicos de referencia en el Centro Municipal Pumarín-Gijón Sur",
+        "Los compradores comparan con Pumarín, Contrueces o Nuevo Roces: el precio debe justificarse por zona"
+      ],
+      "faqs": [
+        {
+          "pregunta": "¿Cómo se fija el precio en el sur de Gijón?",
+          "respuesta": "Con comparables concretos de la zona (ventas y anuncios de viviendas similares), no con medias de toda la ciudad. Te lo explicamos en la tasación gratuita."
+        }
+      ],
+      "schema": [
+        "Service",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "sitemap": {
+        "prioridad": 0.6,
+        "cambio": "monthly"
+      },
+      "indexacion_dia": 4
+    },
+    {
+      "id": "venta-de-viviendas-la-arena-gijon",
+      "tipo": "barrio",
+      "estado": "listo",
+      "carpeta": "pages",
+      "archivo": "venta-de-viviendas-la-arena-gijon.html",
+      "ruta": "/pages/venta-de-viviendas-la-arena-gijon.html",
+      "etiqueta": "La Arena",
+      "padre": "inmobiliaria-gijon",
+      "ciudad": "gijon",
+      "zona": "la-arena",
+      "servicio": "venta-de-viviendas",
+      "consulta_defecto": "vender-vivienda",
+      "title": "Venta de viviendas en La Arena, Gijón | Taptap",
+      "description": "Vende tu vivienda en La Arena (Gijón): pisos junto a la playa de San Lorenzo. Tasación gratuita y acompañamiento con Taptap.",
+      "h1": "Venta de viviendas en La Arena, Gijón",
+      "intro": "La Arena es un barrio clásico de Gijón, junto al centro y a la playa de San Lorenzo, cerca del parque de la Fábrica del Gas y del Pabellón de La Arena, con comercio, cafeterías y sidrerías a pie. Merece una presentación a la altura de su ubicación.",
+      "puntos": [
+        "Cercanía a la playa, al parque de Isabel la Católica y al centro: argumentos visuales que merecen buenas fotos",
+        "Edificios con décadas de antigüedad y ascensor: reformas y fachadas renovadas aumentan el atractivo",
+        "Si se piensa en alquiler de temporada o turístico, hay que revisar la normativa aplicable"
+      ],
+      "faqs": [
+        {
+          "pregunta": "¿Puedo alquilar de temporada mi piso de La Arena?",
+          "respuesta": "El alquiler de temporada y el de uso turístico tienen regulación distinta y dependen de la normativa y de los estatutos de la comunidad. Lo revisamos antes de plantearlo."
+        }
+      ],
+      "schema": [
+        "Service",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "sitemap": {
+        "prioridad": 0.6,
+        "cambio": "monthly"
+      },
+      "indexacion_dia": 4
+    },
+    {
+      "id": "venta-de-viviendas-nuevo-roces-gijon",
+      "tipo": "barrio",
+      "estado": "listo",
+      "carpeta": "pages",
+      "archivo": "venta-de-viviendas-nuevo-roces-gijon.html",
+      "ruta": "/pages/venta-de-viviendas-nuevo-roces-gijon.html",
+      "etiqueta": "Nuevo Roces",
+      "padre": "inmobiliaria-gijon",
+      "ciudad": "gijon",
+      "zona": "nuevo-roces",
+      "servicio": "venta-de-viviendas",
+      "consulta_defecto": "vender-vivienda",
+      "title": "Venta de viviendas en Nuevo Roces, Gijón | Taptap",
+      "description": "Vende tu vivienda en Nuevo Roces (Gijón): viviendas en una zona de desarrollo reciente. Tasación gratuita y acompañamiento con Taptap.",
+      "h1": "Venta de viviendas en Nuevo Roces, Gijón",
+      "intro": "Nuevo Roces es un barrio de Gijón de construcción relativamente reciente, con edificios más nuevos que los de los barrios tradicionales. En edificios con pocos años, los compradores se fijan en garaje, trastero, calidad de construcción y gastos de comunidad.",
+      "puntos": [
+        "Edificios más modernos: el certificado energético y los gastos de comunidad son argumentos",
+        "Garaje y trastero suelen ir incluidos: comprobar si están vinculados en el Registro",
+        "Competencia entre pisos similares: la presentación y el precio marcan la diferencia"
+      ],
+      "faqs": [
+        {
+          "pregunta": "¿Puedo vender el garaje y el trastero por separado?",
+          "respuesta": "Depende de cómo estén inscritos en el Registro. Lo comprobamos con la nota simple antes de publicar el anuncio."
+        }
+      ],
+      "schema": [
+        "Service",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "sitemap": {
+        "prioridad": 0.6,
+        "cambio": "monthly"
+      },
+      "indexacion_dia": 4
+    },
+    {
+      "id": "venta-de-viviendas-contrueces-gijon",
+      "tipo": "barrio",
+      "estado": "listo",
+      "carpeta": "pages",
+      "archivo": "venta-de-viviendas-contrueces-gijon.html",
+      "ruta": "/pages/venta-de-viviendas-contrueces-gijon.html",
+      "etiqueta": "Contrueces",
+      "padre": "inmobiliaria-gijon",
+      "ciudad": "gijon",
+      "zona": "contrueces",
+      "servicio": "venta-de-viviendas",
+      "consulta_defecto": "vender-vivienda",
+      "title": "Venta de viviendas en Contrueces, Gijón | Taptap",
+      "description": "Vende tu vivienda en Contrueces (Gijón): viviendas en un barrio con historia del sur de Gijón. Tasación gratuita y acompañamiento con Taptap.",
+      "h1": "Venta de viviendas en Contrueces, Gijón",
+      "intro": "Contrueces tiene más historia de la que parece: en él se alza el santuario de Nuestra Señora de Contrueces, junto al antiguo camino real entre Gijón y Oviedo, y el sur de Gijón fue zona rural hasta que la ciudad creció hacia allí. Hoy es un barrio urbano con vida propia y servicios municipales cercanos.",
+      "puntos": [
+        "Barrio con tradición propia, incluido su santuario, que sigue atrayendo visitas de otras zonas de Gijón",
+        "Zona sur: comparar con Montevil, Roces y Pumarín para ajustar el precio",
+        "Conviven promociones nuevas y edificios antiguos: el estado y la eficiencia energética pesan en la negociación"
+      ],
+      "faqs": [
+        {
+          "pregunta": "¿Cómo se fija el precio en Contrueces?",
+          "respuesta": "Comparando con ventas y anuncios de viviendas similares del barrio y de sus vecinos del sur de Gijón, no con medias de toda la ciudad."
+        }
+      ],
+      "schema": [
+        "Service",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "sitemap": {
+        "prioridad": 0.6,
+        "cambio": "monthly"
+      },
+      "indexacion_dia": 4
+    },
+    {
+      "id": "venta-de-viviendas-viesques-gijon",
+      "tipo": "barrio",
+      "estado": "listo",
+      "carpeta": "pages",
+      "archivo": "venta-de-viviendas-viesques-gijon.html",
+      "ruta": "/pages/venta-de-viviendas-viesques-gijon.html",
+      "etiqueta": "Viesques",
+      "padre": "inmobiliaria-gijon",
+      "ciudad": "gijon",
+      "zona": "viesques",
+      "servicio": "venta-de-viviendas",
+      "consulta_defecto": "vender-vivienda",
+      "title": "Venta de viviendas en Viesques, Gijón | Taptap",
+      "description": "Vende tu vivienda en Viesques (Gijón): viviendas en la zona del campus de Viesques. Tasación gratuita y acompañamiento con Taptap.",
+      "h1": "Venta de viviendas en Viesques, Gijón",
+      "intro": "Viesques es una zona de Gijón vinculada al campus universitario y al parque científico y tecnológico, con vivienda de desarrollo más reciente. El comprador suele valorar la cercanía a servicios, el garaje y la eficiencia energética del edificio.",
+      "puntos": [
+        "Demanda ligada a estudiantes, personal universitario y profesionales",
+        "Eficiencia energética y garaje pesan en edificios más modernos",
+        "Si hay inquilino, el contrato vigente influye en la venta"
+      ],
+      "faqs": [
+        {
+          "pregunta": "¿Qué certificado energético necesito para vender?",
+          "respuesta": "Es obligatorio disponer del certificado de eficiencia energética para poder vender. Si no lo tienes, te orientamos sobre cómo conseguirlo con un técnico competente."
+        }
+      ],
+      "schema": [
+        "Service",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "sitemap": {
+        "prioridad": 0.6,
+        "cambio": "monthly"
+      },
+      "indexacion_dia": 4
+    },
+    {
+      "id": "venta-de-viviendas-centro-aviles",
+      "tipo": "barrio",
+      "estado": "listo",
+      "carpeta": "pages",
+      "archivo": "venta-de-viviendas-centro-aviles.html",
+      "ruta": "/pages/venta-de-viviendas-centro-aviles.html",
+      "etiqueta": "Centro",
+      "padre": "inmobiliaria-aviles",
+      "ciudad": "aviles",
+      "zona": "centro",
+      "servicio": "venta-de-viviendas",
+      "consulta_defecto": "vender-vivienda",
+      "title": "Venta de viviendas en el centro de Avilés | Taptap",
+      "description": "Vende tu vivienda en el centro de Avilés: pisos en el casco histórico y el centro. Tasación gratuita y acompañamiento con Taptap.",
+      "h1": "Venta de viviendas en el centro de Avilés",
+      "intro": "El centro de Avilés reúne un casco histórico muy cuidado, con calles como Galiana y La Ferrería, y un entorno comercial y de ocio. Vender aquí implica distinguir entre viviendas en edificios históricos, con sus particularidades, y construcciones más recientes.",
+      "puntos": [
+        "Edificios históricos: documentar reformas e inspecciones técnicas ayuda a vender",
+        "Ubicación peatonal y ambiente comercial como argumento de venta",
+        "Aparcamiento y accesos: conviene explicarlos con claridad"
+      ],
+      "faqs": [
+        {
+          "pregunta": "¿Hay restricciones al reformar en el casco histórico?",
+          "respuesta": "Puede haber normas de protección o de estética que afecten a fachadas y obras. Antes de reformar, o de vender prometiendo reformas, conviene consultarlas con el ayuntamiento."
+        }
+      ],
+      "schema": [
+        "Service",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "sitemap": {
+        "prioridad": 0.6,
+        "cambio": "monthly"
+      },
+      "indexacion_dia": 4
+    },
+    {
+      "id": "venta-de-viviendas-la-luz-aviles",
+      "tipo": "barrio",
+      "estado": "borrador",
+      "carpeta": "pages",
+      "archivo": "venta-de-viviendas-la-luz-aviles.html",
+      "ruta": "/pages/venta-de-viviendas-la-luz-aviles.html",
+      "etiqueta": "La Luz",
+      "padre": "inmobiliaria-aviles",
+      "ciudad": "aviles",
+      "zona": "la-luz",
+      "servicio": "venta-de-viviendas",
+      "consulta_defecto": "vender-vivienda",
+      "title": "Venta de viviendas en La Luz, Avilés | Taptap",
+      "description": "Vende tu vivienda en La Luz (Avilés) con tasación gratuita y acompañamiento paso a paso. Trato cercano con Taptap Inmobiliaria.",
+      "h1": "Venta de viviendas en La Luz, Avilés",
+      "intro": "",
+      "puntos": [],
+      "faqs": [],
+      "schema": [
+        "Service",
+        "BreadcrumbList"
+      ],
+      "sitemap": {
+        "prioridad": 0.6,
+        "cambio": "monthly"
+      },
+      "datos_pendientes": "Verificado: ermita de la Virgen de la Luz (patrona de Avilés) con mirador sobre la ciudad y la ría, a unos kilómetros del centro. Falta un segundo dato residencial.",
+      "indexacion_dia": null
+    },
+    {
+      "id": "venta-de-viviendas-versalles-aviles",
+      "tipo": "barrio",
+      "estado": "borrador",
+      "carpeta": "pages",
+      "archivo": "venta-de-viviendas-versalles-aviles.html",
+      "ruta": "/pages/venta-de-viviendas-versalles-aviles.html",
+      "etiqueta": "Versalles",
+      "padre": "inmobiliaria-aviles",
+      "ciudad": "aviles",
+      "zona": "versalles",
+      "servicio": "venta-de-viviendas",
+      "consulta_defecto": "vender-vivienda",
+      "title": "Venta de viviendas en Versalles, Avilés | Taptap",
+      "description": "Vende tu vivienda en Versalles (Avilés) con tasación gratuita y acompañamiento paso a paso. Trato cercano con Taptap Inmobiliaria.",
+      "h1": "Venta de viviendas en Versalles, Avilés",
+      "intro": "",
+      "puntos": [],
+      "faqs": [],
+      "schema": [
+        "Service",
+        "BreadcrumbList"
+      ],
+      "sitemap": {
+        "prioridad": 0.6,
+        "cambio": "monthly"
+      },
+      "datos_pendientes": "Solo aparece en el plano turístico junto a la Avenida de Gijón y en portales. Faltan fuentes fiables sobre el barrio.",
+      "indexacion_dia": null
+    },
+    {
+      "id": "venta-de-viviendas-llaranes-aviles",
+      "tipo": "barrio",
+      "estado": "listo",
+      "carpeta": "pages",
+      "archivo": "venta-de-viviendas-llaranes-aviles.html",
+      "ruta": "/pages/venta-de-viviendas-llaranes-aviles.html",
+      "etiqueta": "Llaranes",
+      "padre": "inmobiliaria-aviles",
+      "ciudad": "aviles",
+      "zona": "llaranes",
+      "servicio": "venta-de-viviendas",
+      "consulta_defecto": "vender-vivienda",
+      "title": "Venta de viviendas en Llaranes, Avilés | Taptap",
+      "description": "Vende tu vivienda en Llaranes (Avilés): viviendas en un barrio con historia industrial. Tasación gratuita y acompañamiento con Taptap.",
+      "h1": "Venta de viviendas en Llaranes, Avilés",
+      "intro": "Llaranes nació como barrio para trabajadores de la industria siderúrgica y mantiene un carácter propio, con servicios de barrio. Quien vende aquí suele tener viviendas de la época de construcción del barrio y compradores que valoran su entorno.",
+      "puntos": [
+        "Viviendas de la época de construcción del barrio: revisar estado, instalaciones y reformas",
+        "Compradores que valoran el barrio y sus servicios de proximidad",
+        "La eficiencia energética puede marcar diferencias en la negociación"
+      ],
+      "faqs": [
+        {
+          "pregunta": "¿Influye la antigüedad de la vivienda en la venta?",
+          "respuesta": "Sí: instalaciones, aislamiento y reformas previas pesan en el precio. Te ayudamos a documentar lo reformado y a presentar la vivienda con realismo."
+        }
+      ],
+      "schema": [
+        "Service",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "sitemap": {
+        "prioridad": 0.6,
+        "cambio": "monthly"
+      },
+      "indexacion_dia": 4
+    },
+    {
+      "id": "venta-de-viviendas-la-carriona-aviles",
+      "tipo": "barrio",
+      "estado": "borrador",
+      "carpeta": "pages",
+      "archivo": "venta-de-viviendas-la-carriona-aviles.html",
+      "ruta": "/pages/venta-de-viviendas-la-carriona-aviles.html",
+      "etiqueta": "La Carriona",
+      "padre": "inmobiliaria-aviles",
+      "ciudad": "aviles",
+      "zona": "la-carriona",
+      "servicio": "venta-de-viviendas",
+      "consulta_defecto": "vender-vivienda",
+      "title": "Venta de viviendas en La Carriona, Avilés | Taptap",
+      "description": "Vende tu vivienda en La Carriona (Avilés) con tasación gratuita y acompañamiento paso a paso. Trato cercano con Taptap Inmobiliaria.",
+      "h1": "Venta de viviendas en La Carriona, Avilés",
+      "intro": "",
+      "puntos": [],
+      "faqs": [],
+      "schema": [
+        "Service",
+        "BreadcrumbList"
+      ],
+      "sitemap": {
+        "prioridad": 0.6,
+        "cambio": "monthly"
+      },
+      "datos_pendientes": "Verificado: cementerio municipal de La Carriona y su centro cicLaC, en las afueras. Faltan datos residenciales.",
+      "indexacion_dia": null
+    },
+    {
+      "id": "venta-de-viviendas-villalegre-aviles",
+      "tipo": "barrio",
+      "estado": "borrador",
+      "carpeta": "pages",
+      "archivo": "venta-de-viviendas-villalegre-aviles.html",
+      "ruta": "/pages/venta-de-viviendas-villalegre-aviles.html",
+      "etiqueta": "Villalegre",
+      "padre": "inmobiliaria-aviles",
+      "ciudad": "aviles",
+      "zona": "villalegre",
+      "servicio": "venta-de-viviendas",
+      "consulta_defecto": "vender-vivienda",
+      "title": "Venta de viviendas en Villalegre, Avilés | Taptap",
+      "description": "Vende tu vivienda en Villalegre (Avilés) con tasación gratuita y acompañamiento paso a paso. Trato cercano con Taptap Inmobiliaria.",
+      "h1": "Venta de viviendas en Villalegre, Avilés",
+      "intro": "",
+      "puntos": [],
+      "faqs": [],
+      "schema": [
+        "Service",
+        "BreadcrumbList"
+      ],
+      "sitemap": {
+        "prioridad": 0.6,
+        "cambio": "monthly"
+      },
+      "datos_pendientes": "Sin fuentes fiables más allá de portales inmobiliarios que lo agrupan con La Luz. Aporta 3-4 datos locales.",
+      "indexacion_dia": null
+    },
+    {
+      "id": "venta-de-viviendas-centro-mieres",
+      "tipo": "barrio",
+      "estado": "listo",
+      "carpeta": "pages",
+      "archivo": "venta-de-viviendas-centro-mieres.html",
+      "ruta": "/pages/venta-de-viviendas-centro-mieres.html",
+      "etiqueta": "Centro",
+      "padre": "inmobiliaria-mieres",
+      "ciudad": "mieres",
+      "zona": "centro",
+      "servicio": "venta-de-viviendas",
+      "consulta_defecto": "vender-vivienda",
+      "title": "Venta de viviendas en el centro de Mieres | Taptap",
+      "description": "Vende tu vivienda en el centro de Mieres: pisos en el núcleo urbano del valle del Caudal. Tasación gratuita y acompañamiento con Taptap.",
+      "h1": "Venta de viviendas en el centro de Mieres",
+      "intro": "El centro de Mieres concentra comercio, servicios y la actividad diaria del concejo. En un mercado con perfil más local, conocer los precios reales de la zona y presentar bien la vivienda es clave para vender sin perder tiempo.",
+      "puntos": [
+        "Precio ajustado a ventas reales de la zona, no solo a anuncios",
+        "Ascensor, orientación y estado del edificio: preguntas habituales",
+        "Acceso a servicios y comunicaciones como argumentos de venta"
+      ],
+      "faqs": [
+        {
+          "pregunta": "¿Cómo sé el precio real de mi piso en Mieres?",
+          "respuesta": "Comparando con inmuebles similares vendidos y en venta en la zona. Te preparamos una tasación gratuita con esa comparación explicada."
+        }
+      ],
+      "schema": [
+        "Service",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "sitemap": {
+        "prioridad": 0.6,
+        "cambio": "monthly"
+      },
+      "indexacion_dia": 5
+    },
+    {
+      "id": "venta-de-viviendas-figaredo-mieres",
+      "tipo": "barrio",
+      "estado": "listo",
+      "carpeta": "pages",
+      "archivo": "venta-de-viviendas-figaredo-mieres.html",
+      "ruta": "/pages/venta-de-viviendas-figaredo-mieres.html",
+      "etiqueta": "Figaredo",
+      "padre": "inmobiliaria-mieres",
+      "ciudad": "mieres",
+      "zona": "figaredo",
+      "servicio": "venta-de-viviendas",
+      "consulta_defecto": "vender-vivienda",
+      "title": "Venta de viviendas en Figaredo, Mieres | Taptap",
+      "description": "Vende tu vivienda en Figaredo (Mieres): casas y pisos en el valle de Figaredo. Tasación gratuita y acompañamiento con Taptap.",
+      "h1": "Venta de viviendas en Figaredo, Mieres",
+      "intro": "Figaredo es un núcleo del concejo de Mieres muy ligado a su pasado minero, con un entorno más tranquilo que el casco urbano. Aquí es habitual encontrar viviendas con terreno y casas de pueblo, donde la documentación del inmueble y de las parcelas anexas pesa mucho.",
+      "puntos": [
+        "Casas con terreno: comprobar linderos y coincidencia entre Registro y Catastro",
+        "Entorno tranquilo como argumento, junto con la distancia al núcleo urbano",
+        "Estado de la vivienda, cubierta e instalaciones: puntos de revisión habituales"
+      ],
+      "faqs": [
+        {
+          "pregunta": "¿Qué documentación necesita una casa con terreno?",
+          "respuesta": "Además de la escritura, la nota simple y el certificado energético, conviene revisar Catastro, linderos y posibles servidumbres. Lo comprobamos al principio para evitar problemas en la firma."
+        }
+      ],
+      "schema": [
+        "Service",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "sitemap": {
+        "prioridad": 0.6,
+        "cambio": "monthly"
+      },
+      "indexacion_dia": 5
+    },
+    {
+      "id": "venta-de-viviendas-turon-mieres",
+      "tipo": "barrio",
+      "estado": "listo",
+      "carpeta": "pages",
+      "archivo": "venta-de-viviendas-turon-mieres.html",
+      "ruta": "/pages/venta-de-viviendas-turon-mieres.html",
+      "etiqueta": "Turón",
+      "padre": "inmobiliaria-mieres",
+      "ciudad": "mieres",
+      "zona": "turon",
+      "servicio": "venta-de-viviendas",
+      "consulta_defecto": "vender-vivienda",
+      "title": "Venta de viviendas en Turón, Mieres | Taptap",
+      "description": "Vende tu vivienda en Turón (Mieres): casas y pisos en el valle de Turón. Tasación gratuita y acompañamiento con Taptap.",
+      "h1": "Venta de viviendas en Turón, Mieres",
+      "intro": "Turón es un valle con fuerte identidad minera dentro del concejo de Mieres. Sus viviendas suelen ser casas y pisos de pueblo en un entorno de montaña y tranquilidad, y los compradores valoran sobre todo el entorno, los accesos y el estado de conservación.",
+      "puntos": [
+        "Entorno rural y de montaña como principal argumento de venta",
+        "Accesos, estado del camino y comunicaciones: preguntas habituales",
+        "Casas antiguas: revisar cubierta, humedades e instalaciones"
+      ],
+      "faqs": [
+        {
+          "pregunta": "¿Qué ayuda a vender una casa de pueblo?",
+          "respuesta": "Documentación en orden, buenas fotos del entorno, un precio realista y claridad sobre accesos, suministros y estado. Te ayudamos a prepararlo todo."
+        }
+      ],
+      "schema": [
+        "Service",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "sitemap": {
+        "prioridad": 0.6,
+        "cambio": "monthly"
+      },
+      "indexacion_dia": 5
+    },
+    {
+      "id": "venta-de-viviendas-ujo-mieres",
+      "tipo": "barrio",
+      "estado": "listo",
+      "carpeta": "pages",
+      "archivo": "venta-de-viviendas-ujo-mieres.html",
+      "ruta": "/pages/venta-de-viviendas-ujo-mieres.html",
+      "etiqueta": "Ujo",
+      "padre": "inmobiliaria-mieres",
+      "ciudad": "mieres",
+      "zona": "ujo",
+      "servicio": "venta-de-viviendas",
+      "consulta_defecto": "vender-vivienda",
+      "title": "Venta de viviendas en Ujo, Mieres | Taptap",
+      "description": "Vende tu vivienda en Ujo (Mieres): viviendas en Ujo, en el valle del Caudal. Tasación gratuita y acompañamiento con Taptap.",
+      "h1": "Venta de viviendas en Ujo, Mieres",
+      "intro": "Ujo es una localidad de Mieres a unos 5 km del casco urbano y 21 km de Oviedo, en la margen izquierda del valle del Caudal y junto a la A-66. Tiene un pasado ligado al ferrocarril y la minería, con la iglesia románica de Santa Eulalia, Bien de Interés Cultural, y casas de obreros y directivos de aquella época.",
+      "puntos": [
+        "Estación de tren y acceso a la autovía: argumentos para quien trabaja fuera",
+        "Patrimonio histórico y casas de origen minero y ferroviario: documentar reformas y estado es clave",
+        "Senderos y sierra de Diego cerca, interesante para quien busca naturaleza"
+      ],
+      "faqs": [
+        {
+          "pregunta": "¿Qué valoran los compradores en Ujo?",
+          "respuesta": "Sobre todo la comunicación por autovía y tren y el entorno. Lo reflejamos en el anuncio con datos concretos de distancias y servicios."
+        }
+      ],
+      "schema": [
+        "Service",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "sitemap": {
+        "prioridad": 0.6,
+        "cambio": "monthly"
+      },
+      "indexacion_dia": 5
+    },
+    {
+      "id": "venta-de-viviendas-santa-rosa-mieres",
+      "tipo": "barrio",
+      "estado": "listo",
+      "carpeta": "pages",
+      "archivo": "venta-de-viviendas-santa-rosa-mieres.html",
+      "ruta": "/pages/venta-de-viviendas-santa-rosa-mieres.html",
+      "etiqueta": "Santa Rosa",
+      "padre": "inmobiliaria-mieres",
+      "ciudad": "mieres",
+      "zona": "santa-rosa",
+      "servicio": "venta-de-viviendas",
+      "consulta_defecto": "vender-vivienda",
+      "title": "Venta de viviendas en Santa Rosa, Mieres | Taptap",
+      "description": "Vende tu vivienda en Santa Rosa (Mieres): casas y fincas en la parroquia rural de Santa Rosa. Tasación gratuita y acompañamiento con Taptap.",
+      "h1": "Venta de viviendas en Santa Rosa, Mieres",
+      "intro": "Santa Rosa es una de las parroquias de Mieres y la forman pequeños núcleos como Barrio Solano, Vegaotos o Rioturbio, a entre 2 y 4,5 km de la capital del concejo y a unos 270-300 m de altitud. Es un entorno rural donde es habitual encontrar casas, fincas y terrenos.",
+      "puntos": [
+        "Casas de pueblo y fincas: comprobar linderos y superficie en Registro y Catastro",
+        "Núcleos cercanos a Mieres: la distancia al casco urbano es un argumento de venta",
+        "Entorno rural: accesos y estado de los caminos son preguntas habituales"
+      ],
+      "faqs": [
+        {
+          "pregunta": "¿Qué papeles necesita una casa de pueblo?",
+          "respuesta": "Escritura, nota simple, certificado energético y, en fincas, comprobación de linderos y Catastro. Si hay herencias sin inscribir, hay que regularizarlas antes de vender."
+        }
+      ],
+      "schema": [
+        "Service",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "sitemap": {
+        "prioridad": 0.6,
+        "cambio": "monthly"
+      },
+      "indexacion_dia": 5
+    },
+    {
+      "id": "venta-de-viviendas-lugones-siero",
+      "tipo": "barrio",
+      "estado": "listo",
+      "carpeta": "pages",
+      "archivo": "venta-de-viviendas-lugones-siero.html",
+      "ruta": "/pages/venta-de-viviendas-lugones-siero.html",
+      "etiqueta": "Lugones",
+      "padre": "inmobiliaria-siero",
+      "ciudad": "siero",
+      "zona": "lugones",
+      "servicio": "venta-de-viviendas",
+      "consulta_defecto": "vender-vivienda",
+      "title": "Venta de viviendas en Lugones, Siero | Taptap",
+      "description": "Vende tu vivienda en Lugones (Siero): pisos y viviendas junto a Oviedo, en Lugones. Tasación gratuita y acompañamiento con Taptap.",
+      "h1": "Venta de viviendas en Lugones, Siero",
+      "intro": "Lugones es uno de los núcleos más importantes de Siero, muy próximo a Oviedo y con comercio y servicios en su entorno. Vender aquí significa dirigirse tanto a quien busca vivir en el concejo como a quien trabaja o estudia en Oviedo.",
+      "puntos": [
+        "Cercanía a Oviedo como argumento para quien trabaja o estudia allí",
+        "Comercio y servicios cerca: argumento de venta cotidiano",
+        "Garaje y trastero pesan en la decisión del comprador"
+      ],
+      "faqs": [
+        {
+          "pregunta": "¿Compensa vender en Siero frente a Oviedo?",
+          "respuesta": "Son mercados distintos, con precios y compradores diferentes. Estudiamos tu zona concreta para fijar un precio realista, sin compararlo con áreas que no aplican."
+        }
+      ],
+      "schema": [
+        "Service",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "sitemap": {
+        "prioridad": 0.6,
+        "cambio": "monthly"
+      },
+      "indexacion_dia": 5
+    },
+    {
+      "id": "venta-de-viviendas-la-pola-siero",
+      "tipo": "barrio",
+      "estado": "listo",
+      "carpeta": "pages",
+      "archivo": "venta-de-viviendas-la-pola-siero.html",
+      "ruta": "/pages/venta-de-viviendas-la-pola-siero.html",
+      "etiqueta": "La Pola",
+      "padre": "inmobiliaria-siero",
+      "ciudad": "siero",
+      "zona": "la-pola",
+      "servicio": "venta-de-viviendas",
+      "consulta_defecto": "vender-vivienda",
+      "title": "Venta de viviendas en La Pola, Siero | Taptap",
+      "description": "Vende tu vivienda en La Pola (Siero): viviendas en la capital del concejo. Tasación gratuita y acompañamiento con Taptap.",
+      "h1": "Venta de viviendas en La Pola, Siero",
+      "intro": "La Pola es la capital del concejo de Siero, con servicios administrativos, comercio y vida local durante todo el año. Quien compra aquí suele buscar vivir cerca de los servicios, así que se valora la ubicación, el estado del edificio y la facilidad para el día a día.",
+      "puntos": [
+        "Servicios y comercio de la capital del concejo como argumento",
+        "Viviendas urbanas y casas con terreno: documentación distinta",
+        "Presentación cuidada y precio ajustado para destacar"
+      ],
+      "faqs": [
+        {
+          "pregunta": "¿Vendéis casas con terreno en La Pola?",
+          "respuesta": "Sí. En esos casos revisamos linderos, superficie en Catastro y servidumbres antes de publicar."
+        }
+      ],
+      "schema": [
+        "Service",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "sitemap": {
+        "prioridad": 0.6,
+        "cambio": "monthly"
+      },
+      "indexacion_dia": 5
+    },
+    {
+      "id": "venta-de-viviendas-fresneda-siero",
+      "tipo": "barrio",
+      "estado": "listo",
+      "carpeta": "pages",
+      "archivo": "venta-de-viviendas-fresneda-siero.html",
+      "ruta": "/pages/venta-de-viviendas-fresneda-siero.html",
+      "etiqueta": "Fresneda",
+      "padre": "inmobiliaria-siero",
+      "ciudad": "siero",
+      "zona": "fresneda",
+      "servicio": "venta-de-viviendas",
+      "consulta_defecto": "vender-vivienda",
+      "title": "Venta de viviendas en Fresneda, Siero | Taptap",
+      "description": "Vende tu vivienda en Fresneda (Siero): chalets y adosados en la urbanización de La Fresneda. Tasación gratuita y acompañamiento con Taptap.",
+      "h1": "Venta de viviendas en Fresneda, Siero",
+      "intro": "La Fresneda es una gran urbanización residencial de Siero, con centro de salud propio y un club de golf de 9 hoyos cercano, y figura entre las poblaciones más importantes del concejo. Predominan chalets, adosados y pareados con jardín, así que quien vende aquí vende sobre todo parcela, calidad constructiva y entorno.",
+      "puntos": [
+        "Superficie de parcela y construida deben coincidir en Registro y Catastro",
+        "Servicios propios de la urbanización, como el centro de salud, y centros comerciales cercanos",
+        "Estado, eficiencia energética y orientación marcan el valor de cada vivienda"
+      ],
+      "faqs": [
+        {
+          "pregunta": "¿Qué busca un comprador en La Fresneda?",
+          "respuesta": "Quien quiere más espacio y jardín sin alejarse de las ciudades. Lo reflejamos en el anuncio con datos reales de superficie, parcela y accesos."
+        }
+      ],
+      "schema": [
+        "Service",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "sitemap": {
+        "prioridad": 0.6,
+        "cambio": "monthly"
+      },
+      "indexacion_dia": 5
+    },
+    {
+      "id": "venta-de-viviendas-colloto-siero",
+      "tipo": "barrio",
+      "estado": "listo",
+      "carpeta": "pages",
+      "archivo": "venta-de-viviendas-colloto-siero.html",
+      "ruta": "/pages/venta-de-viviendas-colloto-siero.html",
+      "etiqueta": "Colloto",
+      "padre": "inmobiliaria-siero",
+      "ciudad": "siero",
+      "zona": "colloto",
+      "servicio": "venta-de-viviendas",
+      "consulta_defecto": "vender-vivienda",
+      "title": "Venta de viviendas en Colloto, Siero | Taptap",
+      "description": "Vende tu vivienda en Colloto (Siero): viviendas en Colloto, límite entre Siero y Oviedo. Tasación gratuita y acompañamiento con Taptap.",
+      "h1": "Venta de viviendas en Colloto, Siero",
+      "intro": "Colloto es una localidad a unos 8 km de Oviedo, repartida entre los concejos de Oviedo y Siero; la parte sierense pertenece a la parroquia de Granda. Su puente romano sobre el río Nora, Bien de Interés Cultural, marcó históricamente la frontera entre ambos concejos. Antes de vender conviene confirmar a qué ayuntamiento pertenece la vivienda.",
+      "puntos": [
+        "Localidad dividida entre Oviedo y Siero: cambian el ayuntamiento, las ordenanzas fiscales y los trámites",
+        "Puente romano y senda junto al río: argumentos de calidad de vida",
+        "Estación de FEVE y conexión por carretera con Oviedo como argumentos de comunicación"
+      ],
+      "faqs": [
+        {
+          "pregunta": "¿Importa si mi vivienda de Colloto está en Siero o en Oviedo?",
+          "respuesta": "Sí. El ayuntamiento determina impuestos locales como el IBI y la plusvalía municipal y los trámites urbanísticos. Lo confirmamos con la nota simple y el recibo del IBI antes de publicar."
+        }
+      ],
+      "schema": [
+        "Service",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "sitemap": {
+        "prioridad": 0.6,
+        "cambio": "monthly"
+      },
+      "indexacion_dia": 5
+    },
+    {
+      "id": "venta-de-viviendas-posada-llanera",
+      "tipo": "barrio",
+      "estado": "listo",
+      "carpeta": "pages",
+      "archivo": "venta-de-viviendas-posada-llanera.html",
+      "ruta": "/pages/venta-de-viviendas-posada-llanera.html",
+      "etiqueta": "Posada",
+      "padre": "inmobiliaria-llanera",
+      "ciudad": "llanera",
+      "zona": "posada",
+      "servicio": "venta-de-viviendas",
+      "consulta_defecto": "vender-vivienda",
+      "title": "Venta de viviendas en Posada, Llanera | Taptap",
+      "description": "Vende tu vivienda en Posada (Llanera): viviendas en la capital del concejo, entre ciudades. Tasación gratuita y acompañamiento con Taptap.",
+      "h1": "Venta de viviendas en Posada, Llanera",
+      "intro": "Posada es la capital del concejo de Llanera, situado entre Oviedo, Avilés y Gijón. Esa ubicación central atrae a quien busca tranquilidad sin alejarse de las tres ciudades principales, y es un argumento de venta que merece destacarse.",
+      "puntos": [
+        "Ubicación central entre Oviedo, Avilés y Gijón como argumento principal",
+        "Viviendas urbanas y casas con parcela: documentación y valoración distintas",
+        "Accesos y comunicaciones: preguntas habituales del comprador"
+      ],
+      "faqs": [
+        {
+          "pregunta": "¿Qué compradores buscan en Posada?",
+          "respuesta": "Perfiles diversos: familias, personas que trabajan en el entorno y quienes buscan más espacio cerca de las ciudades. Adaptamos la presentación al perfil más probable de tu vivienda."
+        }
+      ],
+      "schema": [
+        "Service",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "sitemap": {
+        "prioridad": 0.6,
+        "cambio": "monthly"
+      },
+      "indexacion_dia": 5
+    },
+    {
+      "id": "venta-de-viviendas-lugo-llanera",
+      "tipo": "barrio",
+      "estado": "listo",
+      "carpeta": "pages",
+      "archivo": "venta-de-viviendas-lugo-llanera.html",
+      "ruta": "/pages/venta-de-viviendas-lugo-llanera.html",
+      "etiqueta": "Lugo",
+      "padre": "inmobiliaria-llanera",
+      "ciudad": "llanera",
+      "zona": "lugo",
+      "servicio": "venta-de-viviendas",
+      "consulta_defecto": "vender-vivienda",
+      "title": "Venta de viviendas en Lugo, Llanera | Taptap",
+      "description": "Vende tu vivienda en Lugo (Llanera): viviendas en Lugo de Llanera, con estación de tren. Tasación gratuita y acompañamiento con Taptap.",
+      "h1": "Venta de viviendas en Lugo, Llanera",
+      "intro": "Lugo de Llanera es uno de los principales núcleos del concejo y tiene estación de Renfe. Su pasado romano es importante: aquí se sitúa Lucus Asturum, yacimiento declarado Bien de Interés Cultural con la categoría de Zona Arqueológica. En el concejo están además los polígonos de Silvota y ASIPO.",
+      "puntos": [
+        "Estación de Renfe en el pueblo: argumento para quien trabaja en Oviedo, Gijón o Avilés",
+        "Cercanía a polígonos empresariales: interesa a quien trabaja en ellos",
+        "Entorno arqueológico protegido: en parcelas y fincas conviene consultar si hay limitaciones"
+      ],
+      "faqs": [
+        {
+          "pregunta": "¿Afecta el yacimiento de Lucus Asturum a la venta de una finca?",
+          "respuesta": "Puede condicionar obras o usos si la parcela está dentro de la zona protegida. Lo consultamos con el ayuntamiento y la administración de patrimonio antes de comprometer un precio."
+        }
+      ],
+      "schema": [
+        "Service",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "sitemap": {
+        "prioridad": 0.6,
+        "cambio": "monthly"
+      },
+      "indexacion_dia": 6
+    },
+    {
+      "id": "venta-de-viviendas-la-morgal-llanera",
+      "tipo": "barrio",
+      "estado": "listo",
+      "carpeta": "pages",
+      "archivo": "venta-de-viviendas-la-morgal-llanera.html",
+      "ruta": "/pages/venta-de-viviendas-la-morgal-llanera.html",
+      "etiqueta": "La Morgal",
+      "padre": "inmobiliaria-llanera",
+      "ciudad": "llanera",
+      "zona": "la-morgal",
+      "servicio": "venta-de-viviendas",
+      "consulta_defecto": "vender-vivienda",
+      "title": "Venta de viviendas en La Morgal, Llanera | Taptap",
+      "description": "Vende tu vivienda en La Morgal (Llanera): viviendas entre Lugo y Posada, junto a La Morgal. Tasación gratuita y acompañamiento con Taptap.",
+      "h1": "Venta de viviendas en La Morgal, Llanera",
+      "intro": "La Morgal es la zona del concejo de Llanera, entre Lugo de Llanera y Posada, donde se encuentran el aeródromo, el complejo deportivo y el circuito Fernando Alonso. Las viviendas están en núcleos cercanos como La Bérvola, junto a la senda que une Lugo y Posada. Es una zona vinculada al ocio y al deporte.",
+      "puntos": [
+        "Instalaciones deportivas y de ocio cerca: un reclamo para quien practica deporte",
+        "Ubicación entre Lugo y Posada, con acceso a los servicios de ambos",
+        "Casas y viviendas en pueblos cercanos: revisión de documentación y linderos"
+      ],
+      "faqs": [
+        {
+          "pregunta": "¿Afectan el aeródromo y el circuito a la vivienda?",
+          "respuesta": "Pueden ser un atractivo o una molestia según el comprador. Lo explicamos con transparencia y recomendamos visitar la zona en distintos momentos del día."
+        }
+      ],
+      "schema": [
+        "Service",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "sitemap": {
+        "prioridad": 0.6,
+        "cambio": "monthly"
+      },
+      "indexacion_dia": 6
+    },
+    {
+      "id": "venta-de-viviendas-oviedo",
+      "tipo": "servicio-ciudad",
+      "estado": "listo",
+      "carpeta": "pages",
+      "archivo": "venta-de-viviendas-oviedo.html",
+      "ruta": "/pages/venta-de-viviendas-oviedo.html",
+      "etiqueta": "Venta de viviendas en Oviedo",
+      "padre": "venta-de-viviendas",
+      "ciudad": "oviedo",
+      "zona": null,
+      "servicio": "venta-de-viviendas",
+      "consulta_defecto": "vender-vivienda",
+      "title": "Venta de viviendas en Oviedo | Taptap",
+      "description": "Venta de viviendas en Oviedo: tasación gratuita y proceso claro en la capital. Trato cercano y proceso explicado paso a paso con Taptap.",
+      "h1": "Venta de viviendas en Oviedo",
+      "intro": "Vender tu vivienda en Oviedo implica elegir bien el precio y el momento en un mercado con zonas muy diferentes entre sí. Estudiamos tu barrio concreto, preparamos la documentación y gestionamos visitas y negociación, para que sepas en cada fase en qué punto estás.",
+      "puntos": [
+        "Estudio de precio por barrio: no vale lo mismo en el centro que en el Naranco o La Corredoria",
+        "Documentación revisada antes de publicar: nota simple, certificado energético y estado con la comunidad",
+        "Información sobre la plusvalía municipal y otros costes de la venta"
+      ],
+      "faqs": [
+        {
+          "pregunta": "¿Quién paga la plusvalía municipal?",
+          "respuesta": "Por regla general la paga el vendedor, aunque puede pactarse otra cosa. Se calcula según la normativa y la ordenanza de cada ayuntamiento; conviene confirmar el importe con un asesor."
+        }
+      ],
+      "schema": [
+        "Service",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "sitemap": {
+        "prioridad": 0.9,
+        "cambio": "monthly"
+      },
+      "indexacion_dia": 1
+    },
+    {
+      "id": "venta-de-viviendas-gijon",
+      "tipo": "servicio-ciudad",
+      "estado": "listo",
+      "carpeta": "pages",
+      "archivo": "venta-de-viviendas-gijon.html",
+      "ruta": "/pages/venta-de-viviendas-gijon.html",
+      "etiqueta": "Venta de viviendas en Gijón",
+      "padre": "venta-de-viviendas",
+      "ciudad": "gijon",
+      "zona": null,
+      "servicio": "venta-de-viviendas",
+      "consulta_defecto": "vender-vivienda",
+      "title": "Venta de viviendas en Gijón | Taptap",
+      "description": "Venta de viviendas en Gijón: vende con acompañamiento en la mayor ciudad asturiana. Trato cercano y proceso explicado paso a paso con Taptap.",
+      "h1": "Venta de viviendas en Gijón",
+      "intro": "Gijón tiene un mercado muy marcado por barrios y por su relación con el mar: no es lo mismo vender cerca de la playa que en un barrio interior. Te ayudamos a fijar un precio realista, a presentar bien tu vivienda y a gestionar todo el proceso hasta la firma.",
+      "puntos": [
+        "Precio ajustado a tu barrio, de Cimadevilla a Viesques o Nuevo Roces",
+        "Presentación cuidada: luz, orientación y vistas se muestran con buenas fotos",
+        "Orientación sobre los costes de la venta: plusvalía municipal, cancelación de hipoteca y gestoría"
+      ],
+      "faqs": [
+        {
+          "pregunta": "¿Tengo que cancelar la hipoteca antes de vender?",
+          "respuesta": "No necesariamente: la cancelación suele hacerse en la propia firma con el dinero de la venta. Lo coordinamos con tu banco y la notaría."
+        }
+      ],
+      "schema": [
+        "Service",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "sitemap": {
+        "prioridad": 0.9,
+        "cambio": "monthly"
+      },
+      "indexacion_dia": 1
+    },
+    {
+      "id": "venta-de-viviendas-aviles",
+      "tipo": "servicio-ciudad",
+      "estado": "listo",
+      "carpeta": "pages",
+      "archivo": "venta-de-viviendas-aviles.html",
+      "ruta": "/pages/venta-de-viviendas-aviles.html",
+      "etiqueta": "Venta de viviendas en Avilés",
+      "padre": "venta-de-viviendas",
+      "ciudad": "aviles",
+      "zona": null,
+      "servicio": "venta-de-viviendas",
+      "consulta_defecto": "vender-vivienda",
+      "title": "Venta de viviendas en Avilés | Taptap",
+      "description": "Venta de viviendas en Avilés: tasación gratuita y acompañamiento hasta la firma. Trato cercano y proceso explicado paso a paso con Taptap.",
+      "h1": "Venta de viviendas en Avilés",
+      "intro": "En Avilés conviven el casco histórico, barrios con tradición industrial y zonas más residenciales, y cada uno tiene su tipo de comprador. Analizamos tu vivienda en su contexto, preparamos la documentación y te acompañamos desde la primera visita hasta la notaría.",
+      "puntos": [
+        "Estrategia distinta según zona: casco histórico, barrios tradicionales o áreas más recientes",
+        "Revisión de documentación e inspecciones técnicas en edificios antiguos",
+        "Gestión de visitas y filtro de interesados para no perder tiempo"
+      ],
+      "faqs": [
+        {
+          "pregunta": "¿Cuánto tarda en cerrarse una venta?",
+          "respuesta": "Depende del precio, la zona y el estado de la vivienda; no damos plazos garantizados. Sí te explicamos cómo va evolucionando el interés y ajustamos la estrategia si hace falta."
+        }
+      ],
+      "schema": [
+        "Service",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "sitemap": {
+        "prioridad": 0.9,
+        "cambio": "monthly"
+      },
+      "indexacion_dia": 1
+    },
+    {
+      "id": "venta-de-viviendas-mieres",
+      "tipo": "servicio-ciudad",
+      "estado": "listo",
+      "carpeta": "pages",
+      "archivo": "venta-de-viviendas-mieres.html",
+      "ruta": "/pages/venta-de-viviendas-mieres.html",
+      "etiqueta": "Venta de viviendas en Mieres",
+      "padre": "venta-de-viviendas",
+      "ciudad": "mieres",
+      "zona": null,
+      "servicio": "venta-de-viviendas",
+      "consulta_defecto": "vender-vivienda",
+      "title": "Venta de viviendas en Mieres | Taptap",
+      "description": "Venta de viviendas en Mieres: pisos y casas del valle, con tasación gratuita. Trato cercano y proceso explicado paso a paso con Taptap.",
+      "h1": "Venta de viviendas en Mieres",
+      "intro": "Vender en Mieres significa conocer un mercado local, con pisos en el casco urbano y casas con terreno en los pueblos del concejo. Cada tipo de vivienda pide una preparación distinta: documentación, linderos, estado. Nos ocupamos de organizarla y de acompañarte durante todo el proceso.",
+      "puntos": [
+        "Pisos urbanos y casas de pueblo: dos tipos de venta con requisitos diferentes",
+        "Comprobación de Registro y Catastro en viviendas con terreno",
+        "Precio basado en comparables reales de la zona, no solo en anuncios"
+      ],
+      "faqs": [
+        {
+          "pregunta": "¿Qué impuestos paga el vendedor?",
+          "respuesta": "Principalmente la plusvalía municipal (si procede) y el IRPF por la posible ganancia patrimonial. Hay exenciones y reducciones según el caso, por eso conviene consultar a un asesor fiscal."
+        }
+      ],
+      "schema": [
+        "Service",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "sitemap": {
+        "prioridad": 0.9,
+        "cambio": "monthly"
+      },
+      "indexacion_dia": 3
+    },
+    {
+      "id": "venta-de-viviendas-siero",
+      "tipo": "servicio-ciudad",
+      "estado": "listo",
+      "carpeta": "pages",
+      "archivo": "venta-de-viviendas-siero.html",
+      "ruta": "/pages/venta-de-viviendas-siero.html",
+      "etiqueta": "Venta de viviendas en Siero",
+      "padre": "venta-de-viviendas",
+      "ciudad": "siero",
+      "zona": null,
+      "servicio": "venta-de-viviendas",
+      "consulta_defecto": "vender-vivienda",
+      "title": "Venta de viviendas en Siero | Taptap",
+      "description": "Venta de viviendas en Siero: vivienda en Lugones, La Pola y alrededores. Trato cercano y proceso explicado paso a paso con Taptap.",
+      "h1": "Venta de viviendas en Siero",
+      "intro": "Siero es un concejo grande y muy diverso: urbanizaciones, pisos, casas con terreno y núcleos rurales. Esa variedad hace que el precio y la estrategia cambien mucho de un núcleo a otro. Te ayudamos a valorar tu vivienda dentro de su zona y a gestionar la venta de principio a fin.",
+      "puntos": [
+        "Estudio de precio por núcleo: Lugones, La Pola, Fresneda, Colloto y otros",
+        "Viviendas con terreno: revisión de linderos y superficies",
+        "Cercanía a Oviedo como argumento para parte de los compradores"
+      ],
+      "faqs": [
+        {
+          "pregunta": "¿Qué diferencia hay entre vender un piso y una casa con terreno?",
+          "respuesta": "En la casa hay que comprobar además linderos, superficie en Catastro, servidumbres y, si hubo obras, licencias y declaración de obra nueva. Lo revisamos al empezar."
+        }
+      ],
+      "schema": [
+        "Service",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "sitemap": {
+        "prioridad": 0.9,
+        "cambio": "monthly"
+      },
+      "indexacion_dia": 3
+    },
+    {
+      "id": "venta-de-viviendas-llanera",
+      "tipo": "servicio-ciudad",
+      "estado": "listo",
+      "carpeta": "pages",
+      "archivo": "venta-de-viviendas-llanera.html",
+      "ruta": "/pages/venta-de-viviendas-llanera.html",
+      "etiqueta": "Venta de viviendas en Llanera",
+      "padre": "venta-de-viviendas",
+      "ciudad": "llanera",
+      "zona": null,
+      "servicio": "venta-de-viviendas",
+      "consulta_defecto": "vender-vivienda",
+      "title": "Venta de viviendas en Llanera | Taptap",
+      "description": "Venta de viviendas en Llanera: vende en el centro de Asturias con acompañamiento. Trato cercano y proceso explicado paso a paso con Taptap.",
+      "h1": "Venta de viviendas en Llanera",
+      "intro": "Llanera está en el centro de Asturias, entre Oviedo, Avilés y Gijón. Esa ubicación es un argumento que merece destacarse al vender, junto con el tipo de vivienda y su entorno. Estudiamos tu inmueble, fijamos contigo el precio y gestionamos la venta de principio a fin.",
+      "puntos": [
+        "Ubicación central como argumento de venta, bien explicado",
+        "Viviendas urbanas y casas con parcela: preparación distinta",
+        "Comprobación de la documentación antes de publicar para evitar retrasos"
+      ],
+      "faqs": [
+        {
+          "pregunta": "¿Qué pasa si la vivienda tiene varios propietarios?",
+          "respuesta": "Todos los titulares deben firmar o dar poder a alguien para hacerlo. Es mejor aclararlo desde el principio para no retrasar la venta."
+        }
+      ],
+      "schema": [
+        "Service",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "sitemap": {
+        "prioridad": 0.9,
+        "cambio": "monthly"
+      },
+      "indexacion_dia": 3
+    },
+    {
+      "id": "compra-de-viviendas-oviedo",
+      "tipo": "servicio-ciudad",
+      "estado": "listo",
+      "carpeta": "pages",
+      "archivo": "compra-de-viviendas-oviedo.html",
+      "ruta": "/pages/compra-de-viviendas-oviedo.html",
+      "etiqueta": "Compra de viviendas en Oviedo",
+      "padre": "compra-de-viviendas",
+      "ciudad": "oviedo",
+      "zona": null,
+      "servicio": "compra-de-viviendas",
+      "consulta_defecto": "comprar",
+      "title": "Compra de viviendas en Oviedo | Taptap",
+      "description": "Compra de viviendas en Oviedo: encuentra tu vivienda en Oviedo sin perder tiempo. Trato cercano y proceso explicado paso a paso con Taptap.",
+      "h1": "Compra de viviendas en Oviedo",
+      "intro": "Oviedo ofrece zonas con perfiles muy distintos, del centro histórico a barrios grandes como La Corredoria. Te ayudamos a concretar qué necesitas, a descartar lo que no encaja y a comprobar cada vivienda antes de decidir.",
+      "puntos": [
+        "Comparación de zonas según tu presupuesto, tu movilidad y tu forma de vida",
+        "Revisión de nota simple, cargas y situación de la comunidad",
+        "Acompañamiento en visitas y en la negociación"
+      ],
+      "faqs": [
+        {
+          "pregunta": "¿Conviene mirar viviendas para reformar?",
+          "respuesta": "Puede compensar si el precio lo refleja y conoces el coste real de la obra. Te ayudamos a estimarlo antes de ofertar."
+        }
+      ],
+      "schema": [
+        "Service",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "sitemap": {
+        "prioridad": 0.6,
+        "cambio": "monthly"
+      },
+      "indexacion_dia": 6
+    },
+    {
+      "id": "compra-de-viviendas-gijon",
+      "tipo": "servicio-ciudad",
+      "estado": "listo",
+      "carpeta": "pages",
+      "archivo": "compra-de-viviendas-gijon.html",
+      "ruta": "/pages/compra-de-viviendas-gijon.html",
+      "etiqueta": "Compra de viviendas en Gijón",
+      "padre": "compra-de-viviendas",
+      "ciudad": "gijon",
+      "zona": null,
+      "servicio": "compra-de-viviendas",
+      "consulta_defecto": "comprar",
+      "title": "Compra de viviendas en Gijón | Taptap",
+      "description": "Compra de viviendas en Gijón: compra con información clara en Gijón. Trato cercano y proceso explicado paso a paso con Taptap.",
+      "h1": "Compra de viviendas en Gijón",
+      "intro": "Comprar en Gijón exige decidir si priorizas el mar, los servicios o el precio, porque cada zona ofrece una cosa distinta. Te ayudamos a priorizar, a seleccionar viviendas y a revisar su documentación antes de hacer una oferta.",
+      "puntos": [
+        "Comparación de barrios: cerca de la playa, interiores o de construcción reciente",
+        "Revisión de gastos de comunidad y estado del edificio",
+        "Orientación sobre impuestos y gastos de la compra"
+      ],
+      "faqs": [
+        {
+          "pregunta": "¿Qué es la nota simple y por qué importa?",
+          "respuesta": "Es un documento del Registro de la Propiedad que muestra quién es el titular y qué cargas tiene el inmueble. Es lo primero que revisamos antes de recomendarte una vivienda."
+        }
+      ],
+      "schema": [
+        "Service",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "sitemap": {
+        "prioridad": 0.6,
+        "cambio": "monthly"
+      },
+      "indexacion_dia": 6
+    },
+    {
+      "id": "compra-de-viviendas-aviles",
+      "tipo": "servicio-ciudad",
+      "estado": "listo",
+      "carpeta": "pages",
+      "archivo": "compra-de-viviendas-aviles.html",
+      "ruta": "/pages/compra-de-viviendas-aviles.html",
+      "etiqueta": "Compra de viviendas en Avilés",
+      "padre": "compra-de-viviendas",
+      "ciudad": "aviles",
+      "zona": null,
+      "servicio": "compra-de-viviendas",
+      "consulta_defecto": "comprar",
+      "title": "Compra de viviendas en Avilés | Taptap",
+      "description": "Compra de viviendas en Avilés: viviendas en el casco histórico y los barrios de Avilés. Trato cercano y proceso explicado paso a paso con Taptap.",
+      "h1": "Compra de viviendas en Avilés",
+      "intro": "Avilés es una ciudad compacta, con casco histórico, ría y barrios muy distintos entre sí. Te ayudamos a encontrar vivienda que encaje con tu forma de vivir y a revisar lo que no se ve a simple vista: documentación, estado del edificio y cargas.",
+      "puntos": [
+        "Casco histórico, barrios tradicionales o zonas más recientes: pros y contras de cada uno",
+        "Revisión de inspecciones técnicas en edificios antiguos",
+        "Negociación apoyada en datos de la zona"
+      ],
+      "faqs": [
+        {
+          "pregunta": "¿Puedo comprar sin haber visto el inmueble?",
+          "respuesta": "No lo recomendamos. Siempre que sea posible, visita la vivienda y su entorno; si no puedes, podemos hacerte una visita guiada con fotos y una revisión de la documentación."
+        }
+      ],
+      "schema": [
+        "Service",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "sitemap": {
+        "prioridad": 0.6,
+        "cambio": "monthly"
+      },
+      "indexacion_dia": 6
+    },
+    {
+      "id": "alquiler-larga-duracion-oviedo",
+      "tipo": "servicio-ciudad",
+      "estado": "listo",
+      "carpeta": "pages",
+      "archivo": "alquiler-larga-duracion-oviedo.html",
+      "ruta": "/pages/alquiler-larga-duracion-oviedo.html",
+      "etiqueta": "Alquiler de larga duración en Oviedo",
+      "padre": "alquiler-larga-duracion",
+      "ciudad": "oviedo",
+      "zona": null,
+      "servicio": "alquiler-larga-duracion",
+      "consulta_defecto": "alquilar",
+      "title": "Alquiler de larga duración en Oviedo | Taptap",
+      "description": "Alquiler de larga duración en Oviedo: inquilinos fiables y contrato claro en Oviedo. Trato cercano y proceso explicado paso a paso con Taptap.",
+      "h1": "Alquiler de larga duración en Oviedo",
+      "intro": "En Oviedo hay demanda de alquiler ligada a estudiantes, profesionales y trabajadores de servicios. Te ayudamos a fijar una renta realista, a seleccionar inquilinos y a preparar un contrato claro, para que tu vivienda esté bien gestionada.",
+      "puntos": [
+        "Renta ajustada a tu zona y al estado de la vivienda",
+        "Selección de candidatos con revisión de solvencia",
+        "Contrato y entrega de llaves con inventario"
+      ],
+      "faqs": [
+        {
+          "pregunta": "¿Conviene amueblar la vivienda para alquilar?",
+          "respuesta": "Depende del perfil de inquilino que busques y del coste del mobiliario. Calculamos si compensa en tu caso."
+        }
+      ],
+      "schema": [
+        "Service",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "sitemap": {
+        "prioridad": 0.6,
+        "cambio": "monthly"
+      },
+      "indexacion_dia": 6
+    },
+    {
+      "id": "alquiler-larga-duracion-gijon",
+      "tipo": "servicio-ciudad",
+      "estado": "listo",
+      "carpeta": "pages",
+      "archivo": "alquiler-larga-duracion-gijon.html",
+      "ruta": "/pages/alquiler-larga-duracion-gijon.html",
+      "etiqueta": "Alquiler de larga duración en Gijón",
+      "padre": "alquiler-larga-duracion",
+      "ciudad": "gijon",
+      "zona": null,
+      "servicio": "alquiler-larga-duracion",
+      "consulta_defecto": "alquilar",
+      "title": "Alquiler de larga duración en Gijón | Taptap",
+      "description": "Alquiler de larga duración en Gijón: alquiler estable y bien gestionado en Gijón. Trato cercano y proceso explicado paso a paso con Taptap.",
+      "h1": "Alquiler de larga duración en Gijón",
+      "intro": "Gijón tiene un mercado de alquiler marcado por la estacionalidad en las zonas de playa y por la demanda estable en barrios residenciales. Te ayudamos a decidir si el alquiler de larga duración te encaja mejor que otras opciones y lo gestionamos de principio a fin.",
+      "puntos": [
+        "Comparación entre larga duración y alquiler turístico para tu vivienda",
+        "Búsqueda y filtrado de inquilinos con documentación comprobada",
+        "Seguimiento del contrato: renta, fianza y revisión de condiciones"
+      ],
+      "faqs": [
+        {
+          "pregunta": "¿Qué diferencia hay entre alquiler de larga duración y de temporada?",
+          "respuesta": "Son contratos con regulación distinta. El de larga duración protege la vivienda habitual y tiene prórrogas; el de temporada es para necesidades transitorias y debe justificarse. Revisamos qué opción encaja con tu caso."
+        }
+      ],
+      "schema": [
+        "Service",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "sitemap": {
+        "prioridad": 0.6,
+        "cambio": "monthly"
+      },
+      "indexacion_dia": 6
+    },
+    {
+      "id": "alquiler-larga-duracion-aviles",
+      "tipo": "servicio-ciudad",
+      "estado": "listo",
+      "carpeta": "pages",
+      "archivo": "alquiler-larga-duracion-aviles.html",
+      "ruta": "/pages/alquiler-larga-duracion-aviles.html",
+      "etiqueta": "Alquiler de larga duración en Avilés",
+      "padre": "alquiler-larga-duracion",
+      "ciudad": "aviles",
+      "zona": null,
+      "servicio": "alquiler-larga-duracion",
+      "consulta_defecto": "alquilar",
+      "title": "Alquiler de larga duración en Avilés | Taptap",
+      "description": "Alquiler de larga duración en Avilés: alquila tu vivienda con seguridad en Avilés. Trato cercano y proceso explicado paso a paso con Taptap.",
+      "h1": "Alquiler de larga duración en Avilés",
+      "intro": "Avilés tiene demanda de alquiler de quienes trabajan en la ciudad y su entorno industrial y de servicios. Te ayudamos a preparar tu vivienda, fijar la renta y encontrar un inquilino con el que firmar un contrato claro y equilibrado.",
+      "puntos": [
+        "Preparación y fotos de la vivienda para alquilar mejor",
+        "Revisión de solvencia y documentación del inquilino",
+        "Orientación sobre fianza y seguro de impago"
+      ],
+      "faqs": [
+        {
+          "pregunta": "¿Quién paga los gastos de comunidad y los suministros?",
+          "respuesta": "Se pacta en el contrato. Lo habitual es que el inquilino pague los suministros y el propietario el IBI, pero lo dejamos claro por escrito."
+        }
+      ],
+      "schema": [
+        "Service",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "sitemap": {
+        "prioridad": 0.6,
+        "cambio": "monthly"
+      },
+      "indexacion_dia": 6
+    },
+    {
+      "id": "gestion-alojamientos-turisticos-gijon",
+      "tipo": "servicio-ciudad",
+      "estado": "listo",
+      "carpeta": "pages",
+      "archivo": "gestion-alojamientos-turisticos-gijon.html",
+      "ruta": "/pages/gestion-alojamientos-turisticos-gijon.html",
+      "etiqueta": "Gestión de alojamientos turísticos en Gijón",
+      "padre": "gestion-alojamientos-turisticos",
+      "ciudad": "gijon",
+      "zona": null,
+      "servicio": "gestion-alojamientos-turisticos",
+      "consulta_defecto": "alojamiento-turistico",
+      "title": "Gestión de alojamientos turísticos en Gijón | Taptap",
+      "description": "Gestión de alojamientos turísticos en Gijón: gestión integral para viviendas de uso turístico. Trato cercano y proceso explicado paso a paso con Taptap.",
+      "h1": "Gestión de alojamientos turísticos en Gijón",
+      "intro": "Gijón combina playa, ciudad y eventos, por lo que la demanda turística tiene fuerte estacionalidad. Antes de plantear una vivienda de uso turístico hay que verificar los requisitos autonómicos, municipales y comunitarios (Ley 6/2024 y Decreto 4/2026). Si es viable, nos ocupamos de la gestión diaria.",
+      "puntos": [
+        "Revisión previa de requisitos y viabilidad de tu inmueble",
+        "Gestión de anuncios, huéspedes, limpieza y mantenimiento",
+        "Escenarios de ingresos realistas, sin cifras garantizadas"
+      ],
+      "faqs": [
+        {
+          "pregunta": "¿Cómo afecta la estacionalidad a los ingresos?",
+          "respuesta": "En Gijón la demanda es más alta en temporada de playa y eventos, y baja fuera de ella. Te mostramos escenarios prudentes en lugar de promesas de ocupación."
+        }
+      ],
+      "schema": [
+        "Service",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "sitemap": {
+        "prioridad": 0.6,
+        "cambio": "monthly"
+      },
+      "indexacion_dia": 6
+    },
+    {
+      "id": "gestion-alojamientos-turisticos-oviedo",
+      "tipo": "servicio-ciudad",
+      "estado": "listo",
+      "carpeta": "pages",
+      "archivo": "gestion-alojamientos-turisticos-oviedo.html",
+      "ruta": "/pages/gestion-alojamientos-turisticos-oviedo.html",
+      "etiqueta": "Gestión de alojamientos turísticos en Oviedo",
+      "padre": "gestion-alojamientos-turisticos",
+      "ciudad": "oviedo",
+      "zona": null,
+      "servicio": "gestion-alojamientos-turisticos",
+      "consulta_defecto": "alojamiento-turistico",
+      "title": "Gestión de alojamientos turísticos en Oviedo | Taptap",
+      "description": "Gestión de alojamientos turísticos en Oviedo: gestión de pisos turísticos en una ciudad cultural. Trato cercano y proceso explicado paso a paso con Taptap.",
+      "h1": "Gestión de alojamientos turísticos en Oviedo",
+      "intro": "Oviedo recibe turismo cultural y de negocios, es el punto de partida del Camino Primitivo y acoge fiestas como San Mateo. Si tu vivienda puede destinarse a uso turístico, la gestionamos; antes comprobamos la normativa autonómica y municipal y los estatutos de tu comunidad.",
+      "puntos": [
+        "Viabilidad previa: normativa, municipio y estatutos de la comunidad",
+        "Atención a huéspedes, limpieza y mantenimiento",
+        "Comparación con el alquiler de larga duración"
+      ],
+      "faqs": [
+        {
+          "pregunta": "¿Hay demanda en Oviedo fuera del verano?",
+          "respuesta": "El turismo cultural y de negocios es menos estacional que el de playa, pero no ofrecemos garantías de ocupación. Revisamos escenarios contigo con datos prudentes."
+        }
+      ],
+      "schema": [
+        "Service",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "sitemap": {
+        "prioridad": 0.6,
+        "cambio": "monthly"
+      },
+      "indexacion_dia": 6
+    },
+    {
+      "id": "gestion-alojamientos-turisticos-aviles",
+      "tipo": "servicio-ciudad",
+      "estado": "listo",
+      "carpeta": "pages",
+      "archivo": "gestion-alojamientos-turisticos-aviles.html",
+      "ruta": "/pages/gestion-alojamientos-turisticos-aviles.html",
+      "etiqueta": "Gestión de alojamientos turísticos en Avilés",
+      "padre": "gestion-alojamientos-turisticos",
+      "ciudad": "aviles",
+      "zona": null,
+      "servicio": "gestion-alojamientos-turisticos",
+      "consulta_defecto": "alojamiento-turistico",
+      "title": "Gestión de alojamientos turísticos en Avilés | Taptap",
+      "description": "Gestión de alojamientos turísticos en Avilés: gestión de viviendas turísticas con enfoque cultural. Trato cercano y proceso explicado paso a paso con Taptap.",
+      "h1": "Gestión de alojamientos turísticos en Avilés",
+      "intro": "Avilés atrae visitantes por su casco histórico, la ría y el Centro Niemeyer, además de por su actividad de negocios. Si tu vivienda puede destinarse a uso turístico, te ayudamos a gestionarla; antes revisamos contigo la normativa vigente y las condiciones de tu comunidad.",
+      "puntos": [
+        "Estudio de viabilidad y normativa aplicable",
+        "Gestión integral de reservas, entradas y limpieza",
+        "Informes periódicos claros de ingresos y gastos"
+      ],
+      "faqs": [
+        {
+          "pregunta": "¿Qué ocurre si mi comunidad no lo permite?",
+          "respuesta": "Los estatutos de la comunidad pueden limitar o prohibir el uso turístico. Lo comprobamos desde el principio para evitar problemas."
+        }
+      ],
+      "schema": [
+        "Service",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "sitemap": {
+        "prioridad": 0.6,
+        "cambio": "monthly"
+      },
+      "indexacion_dia": 7
+    },
+    {
+      "id": "inversion-inmobiliaria-oviedo",
+      "tipo": "servicio-ciudad",
+      "estado": "listo",
+      "carpeta": "pages",
+      "archivo": "inversion-inmobiliaria-oviedo.html",
+      "ruta": "/pages/inversion-inmobiliaria-oviedo.html",
+      "etiqueta": "Inversión inmobiliaria en Oviedo",
+      "padre": "inversion-inmobiliaria",
+      "ciudad": "oviedo",
+      "zona": null,
+      "servicio": "inversion-inmobiliaria",
+      "consulta_defecto": "inversion",
+      "title": "Inversión inmobiliaria en Oviedo | Taptap",
+      "description": "Inversión inmobiliaria en Oviedo: oportunidades de inversión con números claros. Trato cercano y proceso explicado paso a paso con Taptap.",
+      "h1": "Inversión inmobiliaria en Oviedo",
+      "intro": "Oviedo concentra demanda de alquiler ligada a servicios, universidad y administración, lo que interesa a muchos inversores. Te ayudamos a buscar, comparar y calcular, sin promesas de rentabilidad, para que decidas con datos.",
+      "puntos": [
+        "Comparación de barrios por precio de compra y renta posible",
+        "Cálculo de rentabilidad con gastos e impuestos incluidos",
+        "Estudio de la reforma antes de comprar"
+      ],
+      "faqs": [
+        {
+          "pregunta": "¿Compensa comprar un piso pequeño para alquilar?",
+          "respuesta": "Puede compensar, pero depende del precio, los gastos y la demanda de la zona. Hacemos los números caso a caso."
+        }
+      ],
+      "schema": [
+        "Service",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "sitemap": {
+        "prioridad": 0.6,
+        "cambio": "monthly"
+      },
+      "indexacion_dia": 7
+    },
+    {
+      "id": "inversion-inmobiliaria-gijon",
+      "tipo": "servicio-ciudad",
+      "estado": "listo",
+      "carpeta": "pages",
+      "archivo": "inversion-inmobiliaria-gijon.html",
+      "ruta": "/pages/inversion-inmobiliaria-gijon.html",
+      "etiqueta": "Inversión inmobiliaria en Gijón",
+      "padre": "inversion-inmobiliaria",
+      "ciudad": "gijon",
+      "zona": null,
+      "servicio": "inversion-inmobiliaria",
+      "consulta_defecto": "inversion",
+      "title": "Inversión inmobiliaria en Gijón | Taptap",
+      "description": "Inversión inmobiliaria en Gijón: inversión con estudio de rentabilidad en Gijón. Trato cercano y proceso explicado paso a paso con Taptap.",
+      "h1": "Inversión inmobiliaria en Gijón",
+      "intro": "En Gijón se cruzan alquiler residencial, estudiantes y alquiler turístico, y cada opción tiene su rentabilidad y su riesgo. Te ayudamos a comparar escenarios y a elegir el inmueble que mejor encaje con tu objetivo, sin garantizar resultados.",
+      "puntos": [
+        "Comparación entre larga duración, alquiler de temporada y turístico",
+        "Verificación de normativa antes de comprar para uso turístico",
+        "Estudio de reformas y coste total de la operación"
+      ],
+      "faqs": [
+        {
+          "pregunta": "¿Qué riesgos tiene invertir en inmuebles?",
+          "respuesta": "Periodos sin ocupación, impagos, cambios normativos y costes imprevistos de reforma. Te ayudamos a identificarlos y a calcular escenarios prudentes."
+        }
+      ],
+      "schema": [
+        "Service",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "sitemap": {
+        "prioridad": 0.6,
+        "cambio": "monthly"
+      },
+      "indexacion_dia": 7
+    },
+    {
+      "id": "plazas-de-garaje-oviedo",
+      "tipo": "servicio-ciudad",
+      "estado": "listo",
+      "carpeta": "pages",
+      "archivo": "plazas-de-garaje-oviedo.html",
+      "ruta": "/pages/plazas-de-garaje-oviedo.html",
+      "etiqueta": "Plazas de garaje en Oviedo",
+      "padre": "plazas-de-garaje",
+      "ciudad": "oviedo",
+      "zona": null,
+      "servicio": "plazas-de-garaje",
+      "consulta_defecto": "garaje",
+      "title": "Plazas de garaje en Oviedo | Taptap",
+      "description": "Plazas de garaje en Oviedo: compra, venta y alquiler de garajes en Oviedo. Trato cercano y proceso explicado paso a paso con Taptap.",
+      "h1": "Plazas de garaje en Oviedo",
+      "intro": "En zonas con estacionamiento limitado, una plaza propia es un valor añadido. Te acompañamos en la compra, venta o alquiler de plazas en Oviedo, con la comprobación registral y de medidas que evita sorpresas.",
+      "puntos": [
+        "Medidas reales y maniobrabilidad: se comprueban en persona",
+        "Situación registral: independiente o vinculada a otra finca",
+        "Gastos de comunidad e impuestos aplicables"
+      ],
+      "faqs": [
+        {
+          "pregunta": "¿Cómo se fija el precio de un garaje?",
+          "respuesta": "Según la zona, el tamaño, la facilidad de acceso, el estado del edificio y los precios de plazas similares. Te hacemos una valoración orientativa gratuita."
+        }
+      ],
+      "schema": [
+        "Service",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "sitemap": {
+        "prioridad": 0.6,
+        "cambio": "monthly"
+      },
+      "indexacion_dia": 7
+    },
+    {
+      "id": "plazas-de-garaje-gijon",
+      "tipo": "servicio-ciudad",
+      "estado": "listo",
+      "carpeta": "pages",
+      "archivo": "plazas-de-garaje-gijon.html",
+      "ruta": "/pages/plazas-de-garaje-gijon.html",
+      "etiqueta": "Plazas de garaje en Gijón",
+      "padre": "plazas-de-garaje",
+      "ciudad": "gijon",
+      "zona": null,
+      "servicio": "plazas-de-garaje",
+      "consulta_defecto": "garaje",
+      "title": "Plazas de garaje en Gijón | Taptap",
+      "description": "Plazas de garaje en Gijón: garajes y trasteros en Gijón. Trato cercano y proceso explicado paso a paso con Taptap.",
+      "h1": "Plazas de garaje en Gijón",
+      "intro": "En barrios céntricos y cercanos a la playa de Gijón el estacionamiento puede ser limitado, sobre todo en temporada alta. Te ayudamos a comprar, vender o alquilar plazas y trasteros comprobando antes lo esencial: registro, medidas y gastos.",
+      "puntos": [
+        "Plazas y trasteros en edificios residenciales",
+        "Alquiler de plazas como pequeña inversión, con números prudentes",
+        "Revisión de acceso, altura y medidas reales"
+      ],
+      "faqs": [
+        {
+          "pregunta": "¿Puedo alquilar mi plaza por meses?",
+          "respuesta": "Sí, con un contrato adecuado y respetando los estatutos de la comunidad. Te preparamos un contrato claro."
+        }
+      ],
+      "schema": [
+        "Service",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "sitemap": {
+        "prioridad": 0.6,
+        "cambio": "monthly"
+      },
+      "indexacion_dia": 7
+    },
+    {
+      "id": "locales-comerciales-oviedo",
+      "tipo": "servicio-ciudad",
+      "estado": "listo",
+      "carpeta": "pages",
+      "archivo": "locales-comerciales-oviedo.html",
+      "ruta": "/pages/locales-comerciales-oviedo.html",
+      "etiqueta": "Locales comerciales en Oviedo",
+      "padre": "locales-comerciales",
+      "ciudad": "oviedo",
+      "zona": null,
+      "servicio": "locales-comerciales",
+      "consulta_defecto": "local",
+      "title": "Locales comerciales en Oviedo | Taptap",
+      "description": "Locales comerciales en Oviedo: venta y alquiler de locales en Oviedo. Trato cercano y proceso explicado paso a paso con Taptap.",
+      "h1": "Locales comerciales en Oviedo",
+      "intro": "Oviedo tiene ejes comerciales y de hostelería muy reconocidos, como la calle Gascona y su bulevar de la sidra, y también locales de barrio. Te ayudamos a elegir o a vender según la actividad, el paso de clientes y las condiciones del contrato.",
+      "puntos": [
+        "Comprobación del uso permitido y de la licencia para tu actividad",
+        "Locales de hostelería: salida de humos, aforo y accesibilidad",
+        "Locales de barrio: ubicación, visibilidad y paso de clientes"
+      ],
+      "faqs": [
+        {
+          "pregunta": "¿Se puede cambiar la actividad de un local?",
+          "respuesta": "Depende del uso urbanístico y de la normativa del ayuntamiento. Hay que consultarlo antes de comprar o alquilar."
+        }
+      ],
+      "schema": [
+        "Service",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "sitemap": {
+        "prioridad": 0.6,
+        "cambio": "monthly"
+      },
+      "indexacion_dia": 7
+    },
+    {
+      "id": "locales-comerciales-gijon",
+      "tipo": "servicio-ciudad",
+      "estado": "listo",
+      "carpeta": "pages",
+      "archivo": "locales-comerciales-gijon.html",
+      "ruta": "/pages/locales-comerciales-gijon.html",
+      "etiqueta": "Locales comerciales en Gijón",
+      "padre": "locales-comerciales",
+      "ciudad": "gijon",
+      "zona": null,
+      "servicio": "locales-comerciales",
+      "consulta_defecto": "local",
+      "title": "Locales comerciales en Gijón | Taptap",
+      "description": "Locales comerciales en Gijón: venta y alquiler de locales en Gijón. Trato cercano y proceso explicado paso a paso con Taptap.",
+      "h1": "Locales comerciales en Gijón",
+      "intro": "Gijón combina calles comerciales, zonas de ocio y hostelería con fuerte actividad en verano, como Cimadevilla o el entorno de la playa de San Lorenzo. Te ayudamos a evaluar ubicación, visibilidad y condiciones antes de comprar, vender o alquilar.",
+      "puntos": [
+        "Estudio de ubicación y paso de clientes según el tipo de negocio",
+        "Zonas con estacionalidad: la actividad cambia según la época del año",
+        "Revisión de licencia, instalaciones y condiciones del contrato"
+      ],
+      "faqs": [
+        {
+          "pregunta": "¿Qué es el traspaso de un local?",
+          "respuesta": "Es el acuerdo por el que un negocio en funcionamiento se cede, normalmente junto con el contrato de alquiler. Debe revisarse con cuidado y con asesoramiento jurídico."
+        }
+      ],
+      "schema": [
+        "Service",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "sitemap": {
+        "prioridad": 0.6,
+        "cambio": "monthly"
+      },
+      "indexacion_dia": 7
+    },
+    {
+      "id": "locales-comerciales-aviles",
+      "tipo": "servicio-ciudad",
+      "estado": "listo",
+      "carpeta": "pages",
+      "archivo": "locales-comerciales-aviles.html",
+      "ruta": "/pages/locales-comerciales-aviles.html",
+      "etiqueta": "Locales comerciales en Avilés",
+      "padre": "locales-comerciales",
+      "ciudad": "aviles",
+      "zona": null,
+      "servicio": "locales-comerciales",
+      "consulta_defecto": "local",
+      "title": "Locales comerciales en Avilés | Taptap",
+      "description": "Locales comerciales en Avilés: locales en el casco histórico y zonas comerciales. Trato cercano y proceso explicado paso a paso con Taptap.",
+      "h1": "Locales comerciales en Avilés",
+      "intro": "El casco histórico de Avilés, con calles como Galiana o La Ferrería, concentra comercio y hostelería, y hay otras zonas con actividad propia. Te ayudamos a vender, comprar o alquilar locales comprobando uso, licencias y estado antes de firmar.",
+      "puntos": [
+        "Comparación de ubicaciones según el tipo de actividad",
+        "Revisión de licencias y posibles protecciones en edificios históricos",
+        "Negociación del contrato: duración, fianza y obras"
+      ],
+      "faqs": [
+        {
+          "pregunta": "¿Qué debo comprobar si el local está en un edificio histórico?",
+          "respuesta": "Posibles restricciones de rotulación, fachada u obra. Se consultan en el ayuntamiento antes de comprometerte."
+        }
+      ],
+      "schema": [
+        "Service",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "sitemap": {
+        "prioridad": 0.6,
+        "cambio": "monthly"
+      },
+      "indexacion_dia": 7
+    },
+    {
+      "id": "terrenos-y-parcelas-siero",
+      "tipo": "servicio-ciudad",
+      "estado": "listo",
+      "carpeta": "pages",
+      "archivo": "terrenos-y-parcelas-siero.html",
+      "ruta": "/pages/terrenos-y-parcelas-siero.html",
+      "etiqueta": "Terrenos y parcelas en Siero",
+      "padre": "terrenos-y-parcelas",
+      "ciudad": "siero",
+      "zona": null,
+      "servicio": "terrenos-y-parcelas",
+      "consulta_defecto": "terreno-parcela",
+      "title": "Terrenos y parcelas en Siero | Taptap",
+      "description": "Terrenos y parcelas en Siero: suelo y parcelas en Siero con comprobación previa. Trato cercano y proceso explicado paso a paso con Taptap.",
+      "h1": "Terrenos y parcelas en Siero",
+      "intro": "En Siero hay desde suelo urbano hasta fincas rústicas, y lo que puedes hacer en cada una cambia mucho. Te ayudamos a vender o comprar parcelas comprobando antes la clasificación urbanística, los accesos, los linderos y la coincidencia entre Registro y Catastro.",
+      "puntos": [
+        "Consulta urbanística en el ayuntamiento antes de decidir",
+        "Revisión de accesos, servidumbres y suministros",
+        "Valoración según clasificación, superficie y ubicación"
+      ],
+      "faqs": [
+        {
+          "pregunta": "¿Qué es el suelo no urbanizable?",
+          "respuesta": "Es el que el planeamiento protege de la urbanización, y en él la edificación está muy limitada. Hay que consultar qué usos admite cada parcela concreta."
+        }
+      ],
+      "schema": [
+        "Service",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "sitemap": {
+        "prioridad": 0.6,
+        "cambio": "monthly"
+      },
+      "indexacion_dia": 7
+    },
+    {
+      "id": "terrenos-y-parcelas-llanera",
+      "tipo": "servicio-ciudad",
+      "estado": "listo",
+      "carpeta": "pages",
+      "archivo": "terrenos-y-parcelas-llanera.html",
+      "ruta": "/pages/terrenos-y-parcelas-llanera.html",
+      "etiqueta": "Terrenos y parcelas en Llanera",
+      "padre": "terrenos-y-parcelas",
+      "ciudad": "llanera",
+      "zona": null,
+      "servicio": "terrenos-y-parcelas",
+      "consulta_defecto": "terreno-parcela",
+      "title": "Terrenos y parcelas en Llanera | Taptap",
+      "description": "Terrenos y parcelas en Llanera: terrenos y parcelas en Llanera, bien documentados. Trato cercano y proceso explicado paso a paso con Taptap.",
+      "h1": "Terrenos y parcelas en Llanera",
+      "intro": "Llanera combina núcleos de población, fincas agrarias y suelo vinculado a parques empresariales. Antes de comprar o vender una parcela conviene saber cómo está clasificada y qué admite, algo que se confirma en el planeamiento municipal.",
+      "puntos": [
+        "Distinción entre suelo urbano, urbanizable y no urbanizable",
+        "Cercanía a polígonos y accesos como factor de valor",
+        "Comprobación de linderos y de la situación registral"
+      ],
+      "faqs": [
+        {
+          "pregunta": "¿Puedo construir una vivienda en una finca rústica?",
+          "respuesta": "Solo si el planeamiento lo permite en esa parcela concreta y bajo condiciones. No lo des por hecho: consulta con el ayuntamiento y con un técnico antes de comprar."
+        }
+      ],
+      "schema": [
+        "Service",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "sitemap": {
+        "prioridad": 0.6,
+        "cambio": "monthly"
+      },
+      "indexacion_dia": 7
+    },
+    {
+      "id": "terrenos-y-parcelas-mieres",
+      "tipo": "servicio-ciudad",
+      "estado": "listo",
+      "carpeta": "pages",
+      "archivo": "terrenos-y-parcelas-mieres.html",
+      "ruta": "/pages/terrenos-y-parcelas-mieres.html",
+      "etiqueta": "Terrenos y parcelas en Mieres",
+      "padre": "terrenos-y-parcelas",
+      "ciudad": "mieres",
+      "zona": null,
+      "servicio": "terrenos-y-parcelas",
+      "consulta_defecto": "terreno-parcela",
+      "title": "Terrenos y parcelas en Mieres | Taptap",
+      "description": "Terrenos y parcelas en Mieres: fincas y parcelas en Mieres, con documentación revisada. Trato cercano y proceso explicado paso a paso con Taptap.",
+      "h1": "Terrenos y parcelas en Mieres",
+      "intro": "En el medio rural es frecuente que las fincas tengan documentación incompleta: linderos sin deslindar, superficies que no coinciden o herencias sin inscribir. En Mieres te ayudamos a ordenarla antes de vender o a revisarla antes de comprar.",
+      "puntos": [
+        "Herencias sin inscribir y titularidades pendientes de aclarar",
+        "Linderos y superficies que no coinciden entre Registro y Catastro",
+        "Accesos, servidumbres y suministros comprobados antes de la oferta"
+      ],
+      "faqs": [
+        {
+          "pregunta": "¿Puedo vender una finca heredada sin inscribir?",
+          "respuesta": "Primero hay que formalizar y registrar la herencia a nombre de los herederos. Te orientamos sobre los pasos y recomendamos asesoramiento jurídico."
+        }
+      ],
+      "schema": [
+        "Service",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "sitemap": {
+        "prioridad": 0.6,
+        "cambio": "monthly"
+      },
+      "indexacion_dia": 8
+    },
+    {
+      "id": "naves-industriales-siero",
+      "tipo": "servicio-ciudad",
+      "estado": "listo",
+      "carpeta": "pages",
+      "archivo": "naves-industriales-siero.html",
+      "ruta": "/pages/naves-industriales-siero.html",
+      "etiqueta": "Naves industriales en Siero",
+      "padre": "naves-industriales",
+      "ciudad": "siero",
+      "zona": null,
+      "servicio": "naves-industriales",
+      "consulta_defecto": "nave-industrial",
+      "title": "Naves industriales en Siero | Taptap",
+      "description": "Naves industriales en Siero: naves y suelo industrial en polígonos de Siero. Trato cercano y proceso explicado paso a paso con Taptap.",
+      "h1": "Naves industriales en Siero",
+      "intro": "Siero cuenta con polígonos industriales bien situados junto a Oviedo, como el de Bobes, y suelo para actividad económica. Te ayudamos a vender, comprar o alquilar naves comprobando uso, accesos, potencia eléctrica y cuotas antes de decidir.",
+      "puntos": [
+        "Comparación de polígonos por accesos y entorno empresarial",
+        "Revisión de potencia eléctrica, altura libre y accesos de camiones",
+        "Comprobación de licencia, cargas y cuotas de mantenimiento del polígono"
+      ],
+      "faqs": [
+        {
+          "pregunta": "¿Qué actividades admite una nave?",
+          "respuesta": "Depende de la licencia, de la normativa del polígono y del planeamiento. Se comprueba antes de comprar o alquilar."
+        }
+      ],
+      "schema": [
+        "Service",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "sitemap": {
+        "prioridad": 0.6,
+        "cambio": "monthly"
+      },
+      "indexacion_dia": 8
+    },
+    {
+      "id": "naves-industriales-llanera",
+      "tipo": "servicio-ciudad",
+      "estado": "listo",
+      "carpeta": "pages",
+      "archivo": "naves-industriales-llanera.html",
+      "ruta": "/pages/naves-industriales-llanera.html",
+      "etiqueta": "Naves industriales en Llanera",
+      "padre": "naves-industriales",
+      "ciudad": "llanera",
+      "zona": null,
+      "servicio": "naves-industriales",
+      "consulta_defecto": "nave-industrial",
+      "title": "Naves industriales en Llanera | Taptap",
+      "description": "Naves industriales en Llanera: naves y suelo en los polígonos de Llanera. Trato cercano y proceso explicado paso a paso con Taptap.",
+      "h1": "Naves industriales en Llanera",
+      "intro": "Llanera acoge parques empresariales conocidos, como ASIPO y Silvota, con una ubicación central en Asturias. Te ayudamos a encontrar o vender nave y suelo industrial, comprobando accesos, usos permitidos y condiciones del polígono.",
+      "puntos": [
+        "Naves y parcelas industriales en parques empresariales del concejo",
+        "Ubicación central para logística y distribución en Asturias",
+        "Revisión de uso, cargas y gastos de la entidad de conservación"
+      ],
+      "faqs": [
+        {
+          "pregunta": "¿Qué es la entidad de conservación de un polígono?",
+          "respuesta": "Es la organización que mantiene los servicios comunes del polígono y cobra cuotas a los propietarios. Conviene revisar sus cuotas antes de comprar."
+        }
+      ],
+      "schema": [
+        "Service",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "sitemap": {
+        "prioridad": 0.6,
+        "cambio": "monthly"
+      },
+      "indexacion_dia": 8
+    },
+    {
+      "id": "naves-industriales-aviles",
+      "tipo": "servicio-ciudad",
+      "estado": "listo",
+      "carpeta": "pages",
+      "archivo": "naves-industriales-aviles.html",
+      "ruta": "/pages/naves-industriales-aviles.html",
+      "etiqueta": "Naves industriales en Avilés",
+      "padre": "naves-industriales",
+      "ciudad": "aviles",
+      "zona": null,
+      "servicio": "naves-industriales",
+      "consulta_defecto": "nave-industrial",
+      "title": "Naves industriales en Avilés | Taptap",
+      "description": "Naves industriales en Avilés: naves y suelo industrial en el entorno de Avilés. Trato cercano y proceso explicado paso a paso con Taptap.",
+      "h1": "Naves industriales en Avilés",
+      "intro": "El entorno de Avilés tiene una larga tradición industrial y portuaria, y su eje logístico e industrial incluye parques empresariales como el Principado de Asturias y la ZALIA. Te ayudamos a vender, comprar o alquilar naves con las comprobaciones necesarias.",
+      "puntos": [
+        "Naves y suelo para industria, logística y servicios",
+        "Cercanía al puerto y a las vías de comunicación como factor a valorar",
+        "Revisión de licencia, cargas y condiciones de la parcela"
+      ],
+      "faqs": [
+        {
+          "pregunta": "¿Alquilar o comprar una nave cerca del puerto?",
+          "respuesta": "Depende de tu operación y de tu horizonte. Comparamos ambas opciones con números y condiciones de contrato."
+        }
+      ],
+      "schema": [
+        "Service",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "sitemap": {
+        "prioridad": 0.6,
+        "cambio": "monthly"
+      },
+      "indexacion_dia": 8
+    },
+    {
+      "id": "naves-industriales-gijon",
+      "tipo": "servicio-ciudad",
+      "estado": "listo",
+      "carpeta": "pages",
+      "archivo": "naves-industriales-gijon.html",
+      "ruta": "/pages/naves-industriales-gijon.html",
+      "etiqueta": "Naves industriales en Gijón",
+      "padre": "naves-industriales",
+      "ciudad": "gijon",
+      "zona": null,
+      "servicio": "naves-industriales",
+      "consulta_defecto": "nave-industrial",
+      "title": "Naves industriales en Gijón | Taptap",
+      "description": "Naves industriales en Gijón: naves y suelo industrial en polígonos de Gijón. Trato cercano y proceso explicado paso a paso con Taptap.",
+      "h1": "Naves industriales en Gijón",
+      "intro": "Gijón dispone de polígonos industriales y empresariales como Roces o Porceyo, además de actividad ligada al puerto. Te ayudamos a vender, comprar o alquilar naves comprobando uso, accesos, potencia y cargas antes de dar el paso.",
+      "puntos": [
+        "Comparación de polígonos por accesos, superficie y entorno empresarial",
+        "Revisión técnica básica: cubierta, suelo, instalaciones y altura libre",
+        "Condiciones del contrato y cuotas del polígono"
+      ],
+      "faqs": [
+        {
+          "pregunta": "¿Se puede subdividir una nave?",
+          "respuesta": "Depende de la normativa del polígono, de su configuración y de las licencias. Hay que estudiarlo antes con un técnico."
+        }
+      ],
+      "schema": [
+        "Service",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "sitemap": {
+        "prioridad": 0.6,
+        "cambio": "monthly"
+      },
+      "indexacion_dia": 8
+    },
+    {
+      "id": "taptap-real-estate-academy",
+      "tipo": "academy",
+      "estado": "listo",
+      "carpeta": "pages",
+      "archivo": "taptap-real-estate-academy.html",
+      "ruta": "/pages/taptap-real-estate-academy.html",
+      "etiqueta": "TAPTAP Real Estate Academy",
+      "padre": "index",
+      "ciudad": null,
+      "zona": null,
+      "servicio": null,
+      "consulta_defecto": "academy",
+      "title": "TAPTAP Real Estate Academy: formación y equipo | Taptap",
+      "description": "Formación y acompañamiento para nuevos gestores inmobiliarios que quieran incorporarse al equipo de Taptap en Asturias. Sin ingresos garantizados.",
+      "h1": "TAPTAP Real Estate Academy: aprende y crece con nosotros",
+      "intro": "La Academy es el espacio de TAPTAP Real Estate para formar a nuevos gestores inmobiliarios que quieran incorporarse al equipo. Aprenderás el oficio con casos reales, acompañamiento y un método claro de trabajo. No prometemos ingresos garantizados: los resultados dependen del trabajo, de la zona y del mercado.",
+      "bloques": [
+        {
+          "titulo": "A quién va dirigida",
+          "items": [
+            "Personas con vocación comercial y trato cercano con la gente",
+            "Perfiles que quieren cambiar de sector y aprender el oficio inmobiliario",
+            "Profesionales con experiencia en ventas, atención al cliente o inmobiliaria que quieren sumarse a un equipo"
+          ]
+        },
+        {
+          "titulo": "Qué se aprende",
+          "items": [
+            "Captación de propiedades y primera conversación con el propietario",
+            "Tasación orientativa y estudio de mercado",
+            "Marketing inmobiliario: anuncios, fotografía y redes sociales",
+            "Proceso de venta, compra y alquiler paso a paso",
+            "Nociones básicas legales y fiscales, y cuándo derivar a un asesor",
+            "Atención al cliente y gestión del tiempo"
+          ]
+        },
+        {
+          "titulo": "Cómo funciona",
+          "items": [
+            "Envías tu candidatura con el formulario de esta página",
+            "Mantenemos una entrevista para conocernos y ver si encajamos",
+            "Formación inicial sobre el método de trabajo de Taptap",
+            "Acompañamiento en tus primeras operaciones"
+          ]
+        }
+      ],
+      "faqs": [
+        {
+          "pregunta": "¿Necesito experiencia previa?",
+          "respuesta": "No es imprescindible. Valoramos la actitud, la constancia y el trato con las personas. Si tienes experiencia en ventas, atención al cliente o inmobiliaria, mejor, pero no es un requisito."
+        },
+        {
+          "pregunta": "¿Garantizáis ingresos?",
+          "respuesta": "No. Ningún resultado está garantizado: dependen de tu trabajo, de la zona y del mercado."
+        },
+        {
+          "pregunta": "¿Qué relación tendría con Taptap?",
+          "respuesta": "Se define en la entrevista según tu perfil y se formaliza por escrito antes de empezar. No damos condiciones cerradas antes de conocerte."
+        }
+      ],
+      "schema": [
+        "WebPage",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "sitemap": {
+        "prioridad": 0.6,
+        "cambio": "monthly"
+      },
+      "indexacion_dia": 8
+    },
+    {
+      "id": "sobre-nosotros",
+      "tipo": "institucional",
+      "estado": "listo",
+      "carpeta": "pages",
+      "archivo": "sobre-nosotros.html",
+      "ruta": "/pages/sobre-nosotros.html",
+      "etiqueta": "Sobre nosotros",
+      "padre": "index",
+      "ciudad": null,
+      "zona": null,
+      "servicio": null,
+      "consulta_defecto": "",
+      "title": "Sobre Taptap Inmobiliaria | TAPTAP Real Estate",
+      "description": "Conoce Taptap Inmobiliaria, empresa de servicios inmobiliarios de TAPTAP Real Estate que trabaja en Oviedo, Gijón, Avilés, Mieres, Siero y Llanera.",
+      "h1": "Sobre Taptap Inmobiliaria",
+      "intro": "Taptap Inmobiliaria es la marca de servicios inmobiliarios de TAPTAP Real Estate. Somos una empresa de prestación de servicios: no tenemos una oficina abierta al público, sino áreas de servicio en las que nos desplazamos y atendemos a propietarios y compradores. Creemos que vender o comprar una vivienda debe ser un proceso claro, y por eso explicamos cada paso.",
+      "puntos": [
+        "Venta de viviendas como servicio principal y prioritario",
+        "Trato cercano y comunicación clara durante todo el proceso",
+        "Sin promesas de precios, plazos ni rentabilidades que no podamos justificar",
+        "Formación y crecimiento de nuevos gestores a través de TAPTAP Real Estate Academy"
+      ],
+      "faqs": [
+        {
+          "pregunta": "¿Tenéis oficina?",
+          "respuesta": "No tenemos oficina abierta al público. Trabajamos por áreas de servicio: te atendemos por teléfono, WhatsApp o nos desplazamos a tu zona."
+        },
+        {
+          "pregunta": "¿Qué zonas cubrís?",
+          "respuesta": "Oviedo, Gijón, Avilés, Mieres, Siero y Llanera, y su entorno."
+        }
+      ],
+      "schema": [
+        "WebPage",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "sitemap": {
+        "prioridad": 0.5,
+        "cambio": "monthly"
+      },
+      "indexacion_dia": 8
+    },
+    {
+      "id": "contacto",
+      "tipo": "institucional",
+      "estado": "listo",
+      "carpeta": "pages",
+      "archivo": "contacto.html",
+      "ruta": "/pages/contacto.html",
+      "etiqueta": "Contacto",
+      "padre": "index",
+      "ciudad": null,
+      "zona": null,
+      "servicio": null,
+      "consulta_defecto": "",
+      "title": "Contacto | Taptap Inmobiliaria",
+      "description": "Contacta con Taptap Inmobiliaria por teléfono, WhatsApp o formulario. Tasación gratuita y atención en Oviedo, Gijón, Avilés, Mieres, Siero y Llanera.",
+      "h1": "Contacta con Taptap Inmobiliaria",
+      "intro": "Cuéntanos qué necesitas y te respondemos lo antes posible. Puedes escribirnos por WhatsApp, llamarnos o usar el formulario. Prestamos servicio en Oviedo, Gijón, Avilés, Mieres, Siero y Llanera, y su entorno.",
+      "puntos": [
+        "Tasación gratuita y sin compromiso",
+        "Atención por teléfono, WhatsApp o en tu zona",
+        "Consulta inicial sin compromiso"
+      ],
+      "faqs": [
+        {
+          "pregunta": "¿Qué información debo darte para empezar?",
+          "respuesta": "Tipo de inmueble, municipio o zona y qué quieres hacer (vender, comprar, alquilar...). Con eso podemos orientarte y proponerte los siguientes pasos."
+        }
+      ],
+      "schema": [
+        "WebPage",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "sitemap": {
+        "prioridad": 0.5,
+        "cambio": "monthly"
+      },
+      "indexacion_dia": 8
+    },
+    {
+      "id": "aviso-legal",
+      "tipo": "legal",
+      "estado": "listo",
+      "carpeta": "raiz",
+      "archivo": "aviso-legal.html",
+      "ruta": "/aviso-legal.html",
+      "etiqueta": "Aviso legal",
+      "padre": "index",
+      "ciudad": null,
+      "zona": null,
+      "servicio": null,
+      "consulta_defecto": "",
+      "title": "Aviso legal | Taptap Inmobiliaria",
+      "description": "Aviso legal de Taptap Inmobiliaria: identificación del titular, condiciones de uso del sitio web y propiedad intelectual.",
+      "h1": "Aviso legal",
+      "intro": "",
+      "faqs": [],
+      "schema": [
+        "WebPage",
+        "BreadcrumbList"
+      ],
+      "sitemap": {
+        "prioridad": 0.3,
+        "cambio": "yearly"
+      },
+      "plantilla": "legal-aviso",
+      "indexacion_dia": 8
+    },
+    {
+      "id": "politicas-privacidad",
+      "tipo": "legal",
+      "estado": "listo",
+      "carpeta": "raiz",
+      "archivo": "politicas-privacidad.html",
+      "ruta": "/politicas-privacidad.html",
+      "etiqueta": "Política de privacidad",
+      "padre": "index",
+      "ciudad": null,
+      "zona": null,
+      "servicio": null,
+      "consulta_defecto": "",
+      "title": "Política de privacidad | Taptap Inmobiliaria",
+      "description": "Política de privacidad de Taptap Inmobiliaria: qué datos recogemos, para qué los usamos y cómo ejercer tus derechos.",
+      "h1": "Política de privacidad",
+      "intro": "",
+      "faqs": [],
+      "schema": [
+        "WebPage",
+        "BreadcrumbList"
+      ],
+      "sitemap": {
+        "prioridad": 0.3,
+        "cambio": "yearly"
+      },
+      "plantilla": "legal-privacidad",
+      "indexacion_dia": 8
+    },
+    {
+      "id": "politicas-cookies",
+      "tipo": "legal",
+      "estado": "listo",
+      "carpeta": "raiz",
+      "archivo": "politicas-cookies.html",
+      "ruta": "/politicas-cookies.html",
+      "etiqueta": "Política de cookies",
+      "padre": "index",
+      "ciudad": null,
+      "zona": null,
+      "servicio": null,
+      "consulta_defecto": "",
+      "title": "Política de cookies | Taptap Inmobiliaria",
+      "description": "Política de cookies de Taptap Inmobiliaria: qué cookies utiliza este sitio web y cómo gestionarlas.",
+      "h1": "Política de cookies",
+      "intro": "",
+      "faqs": [],
+      "schema": [
+        "WebPage",
+        "BreadcrumbList"
+      ],
+      "sitemap": {
+        "prioridad": 0.3,
+        "cambio": "yearly"
+      },
+      "plantilla": "legal-cookies",
+      "indexacion_dia": 9
+    },
+    {
+      "id": "terminos-servicio",
+      "tipo": "legal",
+      "estado": "listo",
+      "carpeta": "raiz",
+      "archivo": "terminos-servicio.html",
+      "ruta": "/terminos-servicio.html",
+      "etiqueta": "Términos del servicio",
+      "padre": "index",
+      "ciudad": null,
+      "zona": null,
+      "servicio": null,
+      "consulta_defecto": "",
+      "title": "Términos del servicio | Taptap Inmobiliaria",
+      "description": "Términos del servicio de Taptap Inmobiliaria: condiciones generales de uso de la web y de los servicios ofrecidos.",
+      "h1": "Términos del servicio",
+      "intro": "",
+      "faqs": [],
+      "schema": [
+        "WebPage",
+        "BreadcrumbList"
+      ],
+      "sitemap": {
+        "prioridad": 0.3,
+        "cambio": "yearly"
+      },
+      "plantilla": "legal-terminos",
+      "indexacion_dia": 9
+    }
+  ]
+}

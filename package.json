@@ -1,0 +1,20 @@
+{
+  "name": "taptap-inmobiliaria",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Web estática de Taptap Inmobiliaria generada desde pages.json, site.json y reviews.json",
+  "scripts": {
+    "build": "node generate.js && node generate-sitemap.js",
+    "build:strict": "node generate.js --strict && node generate-sitemap.js",
+    "borradores": "node generate.js --todo",
+    "sitemap": "node generate-sitemap.js",
+    "plan": "node generate-sitemap.js --plan",
+    "serve": "npx serve .",
+    "publicar": "node publicar.js",
+    "build:render": "npm run build && npm run publicar"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "UNLICENSED"
+}
